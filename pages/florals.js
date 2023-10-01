@@ -1,21 +1,21 @@
 import React from 'react'
 import Hero from '../components/Florals/Hero'
-import Head from 'next/head'
 import Footer from '../components/Footer'
 import Intro from '../components/Florals/Intro'
 import PageGallery from '../components/PageGallery'
+import MyHead from '../components/Head'
 
 const Florals = () => {
     const gallery = [
         {
             id: 1,
             itemType: "image",
-            imgUrl: "/floral/floral1.png"
+            imgUrl: "/floral/floral1.jpg"
         },
         {
             id: 2,
             itemType: "image",
-            imgUrl: "/floral/floral2.png"
+            imgUrl: "/floral/floral2.jpg"
         },
         {
             id: 3,
@@ -45,12 +45,12 @@ const Florals = () => {
         {
             id: 8,
             itemType: "image",
-            imgUrl: "/floral/floral8.png"
+            imgUrl: "/floral/floral8.jpg"
         },
         {
             id: 9,
             itemType: "image",
-            imgUrl: "/floral/floral9.png"
+            imgUrl: "/floral/floral9.jpg"
         },
         {
             id: 10,
@@ -66,10 +66,7 @@ const Florals = () => {
 
     return (
         <>
-            <Head>
-                <title>Florals | Riwaj Events</title>
-                <meta name="description" content="This is the Florals of Riwaj Events" />
-            </Head>
+            <MyHead title={"Florals | Riwaj Events"} description={"This is the Florals of Riwaj Events"} />
             <Hero />
             <Intro />
             <PageGallery galleryData={gallery} />

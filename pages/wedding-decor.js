@@ -1,9 +1,9 @@
-import Head from 'next/head'
 import React from 'react'
 import Footer from '../components/Footer'
 import PageGallery from '../components/PageGallery'
 import Hero from '../components/Decor/Hero'
 import Intro from '../components/Decor/Intro'
+import MyHead from '../components/Head'
 
 const WeddingDecor = () => {
     const gallery = [
@@ -321,10 +321,7 @@ const WeddingDecor = () => {
 
     return (
         <>
-            <Head>
-                <title>Wedding Decor | Riwaj Events</title>
-                <meta name="description" content="This is the Wedding Decor of Riwaj Events" />
-            </Head>
+            <MyHead title={"Wedding Decor | Riwaj Events"} description={"This is the Wedding Decor of Riwaj Events"} />
             <Hero />
             <Intro />
             <PageGallery galleryData={gallery} />

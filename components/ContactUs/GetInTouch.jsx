@@ -16,7 +16,7 @@ const GetInTouch = () => {
             your budget and eye to create your wedding exactly the way you
             envisioned it.
           </p>
-          <div>
+          <div className="mt-5">
             <h1 className="font-vibes lg:text-[40px] md:text-[30px] text-[28px] text-[#d59a30]">
               Contact Information
             </h1>
@@ -32,12 +32,10 @@ const GetInTouch = () => {
         </div>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48347.798473753886!2d-73.524879!3d40.7678!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c280e2a613f791%3A0x4e233b780b4c98ac!2s12%20Herzog%20Pl%2C%20Hicksville%2C%20NY%2011801!5e0!3m2!1sen!2sus!4v1691329567197!5m2!1sen!2sus"
-          width="600"
-          height="450"
           allowfullscreen=""
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
-          className="rounded-2xl shadow-xl"
+          className="rounded-2xl shadow-xl w-full h-[450px]"
         ></iframe>
       </div>
     </>

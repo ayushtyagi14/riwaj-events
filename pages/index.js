@@ -1,15 +1,12 @@
-import Head from 'next/head'
 import { useRouter } from 'next/router'
+import MyHead from '../components/Head'
 
 export default function Home() {
   const router = useRouter()
 
   return (
     <div>
-      <Head>
-        <title>Riwaj Events</title>
-        <meta name="description" content="Welcome to Velvet and Rose!" />
-      </Head>
+      <MyHead title={"Riwaj Events"} description={"Welcome To Riwaj Events!"} />
       <div className='h-screen overflow-hidden flex flex-col items-center justify-center'>
         <img src="/logo.png" alt="Logo" className='md:h-[200px] mx-auto' />
         <button

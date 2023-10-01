@@ -3,15 +3,12 @@ import Navbar from '../components/Navbar'
 import GetInTouch from '../components/ContactUs/GetInTouch'
 import Calendly from '../components/Calendly'
 import Footer from '../components/Footer'
-import Head from 'next/head'
+import MyHead from '../components/Head'
 
 const ContactUs = () => {
     return (
         <>
-            <Head>
-                <title>Contact Us | Riwaj Events</title>
-                <meta name="description" content="This is the Contact Us of Riwaj Events" />
-            </Head>
+            <MyHead title={"Contact Us | Riwaj Events"} description={"This is the Contact Us of Riwaj Events"} />
             <Navbar />
             <GetInTouch />
             <Calendly />

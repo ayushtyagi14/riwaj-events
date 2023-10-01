@@ -67,7 +67,7 @@ const All = () => {
             <p className="font-vibes text-[26px] bg-[#d59a30] py-2 px-4 rounded-full text-center">
               {item.title}
             </p>
-            <h1 className="text-[38px] font-extrabold text-center">
+            <h1 className="text-[36px] font-extrabold text-center">
               {item.price}
             </h1>
             <p className="text-center font-light text-[20px]">
