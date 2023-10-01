@@ -20,13 +20,19 @@ const GetInTouch = () => {
             <h1 className="font-vibes lg:text-[40px] md:text-[30px] text-[28px] text-[#d59a30]">
               Contact Information
             </h1>
-            <div className="flex flex-row items-center mb-2 cursor-pointer">
+            <div
+              className="flex flex-row items-center mb-2 cursor-pointer"
+              href="tel:+15169048854"
+            >
               <FaPhone className="mr-2" />
-              <span>+1 (123) 456-7890</span>
+              <span>+1 516-904-8854</span>
             </div>
-            <div className="flex flex-row items-center mb-2 cursor-pointer">
+            <div
+              className="flex flex-row items-center mb-2 cursor-pointer"
+              href="mailto:info@riwaj.events"
+            >
               <FaEnvelope className="mr-2" />
-              <span>velvetandrose@gmail.com</span>
+              <span>info@riwaj.events</span>
             </div>
           </div>
         </div>
