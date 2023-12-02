@@ -81,10 +81,10 @@ const Hero = () => {
             <div className="lg:h-[98vh] md:h-[75vh] h-[55vh]">
               <BlurImage
                 image={item.imgUrl}
-                className={"brightness-[70%] object-cover rounded-b-[8%]"}
+                className={"brightness-[70%] object-cover"}
               />
             </div>
-            {currentSlideIndex === index && (
+            {/* {currentSlideIndex === index && (
               <motion.div
                 variants={slideIn("up", "tween", 0.5, 0.8)}
                 initial="hidden"
@@ -96,10 +96,13 @@ const Hero = () => {
                   {item.title}
                 </h1>
               </motion.div>
-            )}
+            )} */}
           </SwiperSlide>
         ))}
       </Swiper>
+      <p className="text-white md:left-[17%] left-6 2xl:left-[30%] md:-mt-36 -mt-10 md:text-[46px] text-[28px] absolute z-[1] leading-tight font-vibes">
+        Welcome to <br /> <span className="lg:text-[180px] text-[70px] text-[#d59a30]">Riwaj Events</span>
+      </p>
     </div>
   );
 };

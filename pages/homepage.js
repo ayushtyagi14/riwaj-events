@@ -8,12 +8,14 @@ import Work from '../components/Homepage/Work'
 import Gallery from '../components/Gallery'
 import Calendly from '../components/Calendly'
 import MyHead from '../components/Head'
+import Sidebar from '../components/Sidebar'
 
 const Homepage = () => {
 
     return (
         <>
             <MyHead title={"Homepage | Riwaj Events"} description={"This is the Homepage of Riwaj Events"} />
+            <Sidebar />
             <Hero />
             <AboutUs />
             <Services />

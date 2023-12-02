@@ -44,7 +44,7 @@ const Work = () => {
   ];
 
   return (
-    <div className="flex flex-col items-center w-[90%] mx-auto mb-16 leading-tight">
+    <div className="flex flex-col items-center w-[90%] mx-auto mb-16 mt-5 leading-tight">
       <h1 className="text-center md:text-[80px] text-[50px] font-vibes text-[#d59a30]">
         Past Work
       </h1>

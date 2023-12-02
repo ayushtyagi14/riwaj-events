@@ -86,7 +86,7 @@ const Clients = () => {
   ];
 
   return (
-    <div className="w-[90%] mx-auto mb-16">
+    <div className="mt-5">
       <h1 className="text-center md:text-[80px] text-[50px] font-vibes text-[#d59a30]">
         From Our Clients
       </h1>
@@ -103,12 +103,12 @@ const Clients = () => {
         speed={videoDelay}
         loop={true}
         centeredSlides={false}
-        className="mySwiper"
+        className="mySwipe client-card"
         onSlideChange={handleSlideChange}
       >
         {testimonials.map((item) => (
           <SwiperSlide key={item.id}>
-            <div className="text-white flex flex-col items-start md:w-[80%] mx-auto text-center mt-5 border border-white md:p-10 p-6 rounded-2xl">
+            <div className="text-white flex flex-col items-start w-full text-center mt-5 md:p-10 mb-8 p-6">
               <img src="/quote.png" alt="quotes left" />
               <div className="flex flex-col items-center md:w-[80%] mx-auto">
                 <p className="text-[22px] font-thin mb-4">{item.review}</p>

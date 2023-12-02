@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { motion, AnimatePresence } from "framer-motion";
@@ -6,14 +6,11 @@ import { FaPhone, FaEnvelope } from "react-icons/fa";
 
 const Navbar = () => {
   const [dropdown, setDropdown] = useState(false);
+  const [scrolling, setScrolling] = useState(false);
 
   const router = useRouter();
 
   const navigation = [
-    {
-      url: "/about-us",
-      title: "About Us",
-    },
     {
       url: "/contact-us",
       title: "Contact Us",
@@ -44,10 +41,25 @@ const Navbar = () => {
     },
   ];
 
+  const handleScroll = () => {
+    if (window.scrollY > 0) {
+      setScrolling(true);
+    } else {
+      setScrolling(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <>
+    <div className={` ${scrolling ? "bg-[#2a2a2ab7]" : "bg-[#2a2a2a41]"}`}>
       <div
-        className={`grid grid-cols-3 px-4 md:px-10 py-2 lg:py-0 text-white bg-[#2a2a2a] text-[15px] ${
+        className={`grid grid-cols-3 px-4 md:px-10 py-2 lg:py-0 text-white text-[15px] ${
           dropdown ? "bg-none" : "bg-none"
         }`}
       >
@@ -63,7 +75,7 @@ const Navbar = () => {
             className="lg:flex hidden flex-col items-end text-[18px] cursor-pointer"
             href="tel:+15169048854"
           >
-            <div className="flex flex-row items-center mb-2">
+            <div className="flex flex-row items-center mb-2 hover:text-[#d59a30]">
               <FaPhone className="mr-2" />
               <span>+1 516-904-8854</span>
             </div>
@@ -75,7 +87,7 @@ const Navbar = () => {
             <img
               src="/logo.png"
               alt="logo"
-              className="md:w-[25%] mt-2 rounded-lg cursor-pointer"
+              className="md:w-[28%] mt-2 rounded-lg cursor-pointer"
             />
           </div>
         </Link>
@@ -85,7 +97,7 @@ const Navbar = () => {
           href="mailto:info@riwaj.events"
         >
           <div className="flex flex-col items-start text-[18px]">
-            <div className="flex flex-row items-center mb-2">
+            <div className="flex flex-row items-center mb-2 hover:text-[#d59a30]">
               <FaEnvelope className="mr-2" />
               <span>info@riwaj.events</span>
             </div>
@@ -93,11 +105,11 @@ const Navbar = () => {
         </div>
       </div>
 
-      <div className="bg-[#2b2b2b] text-white text-center lg:flex hidden flex-row w-full justify-evenly pt-2">
+      <div className="text-white text-center lg:flex hidden flex-row w-full justify-evenly pt-2">
         {navigation.map((item, index) => (
           <Link
             href={item.url}
-            className="hover:bg-[#d59a30] p-2 transition-colors"
+            className="hover:text-[#d59a30] p-2 transition-colors"
             key={index}
           >
             {item.title}
@@ -144,7 +156,7 @@ const Navbar = () => {
           </motion.div>
         )}
       </AnimatePresence>
-    </>
+    </div>
   );
 };
 

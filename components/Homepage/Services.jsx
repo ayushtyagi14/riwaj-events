@@ -1,4 +1,5 @@
 import React from "react";
+import ServiceCard from "./ServiceCard";
 
 const Services = () => {
   const serviceData = [
@@ -67,29 +68,19 @@ const Services = () => {
   ];
 
   return (
-    <div className="flex flex-col items-center w-[90%] mx-auto mb-16">
+    <div className="flex flex-col items-center w-[90%] mx-auto mt-24">
       <h1 className="text-center md:text-[80px] text-[50px] font-vibes text-[#d59a30]">
         Our Services
       </h1>
       <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 items-center gap-10">
         {serviceData.map((item) => (
-          <div className="card" key={item.id}>
-            <div className="card-inner">
-              <div className="card-front relative">
-                <p className="absolute bg-[#00000090] py-1 px-1 rounded-xl text-center">
-                  {item.title}
-                </p>
-                <img
-                  src={item.imgUrl}
-                  alt="Floral Design Riwaj Events"
-                  className="w-full h-full rounded-lg"
-                />
-              </div>
-              <div className="card-back">
-                <p className="mx-1">{item.description}</p>
-              </div>
-            </div>
-          </div>
+          <>
+            <ServiceCard
+              imageUrl={item.imgUrl}
+              desciption={item.description}
+              title={item.title}
+            />
+          </>
         ))}
       </div>
     </div>
