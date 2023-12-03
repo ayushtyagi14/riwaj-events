@@ -39,18 +39,18 @@ const Sidebar = () => {
     >
       {showIcons && (
         <button
-          className="bg-black px-4 py-2 border-t border-black"
+          className="bg-black px-4 py-2 border-t border-black rounded-tl-lg"
           onClick={() => setShowIcons(false)}
         >
-          <FaArrowRight className="text-white" />
+          <FaArrowRight className="text-white rounded-tl-lg" />
         </button>
       )}
       {!showIcons && (
         <button
-          className="bg-black px-4 py-2 border-t border-black"
+          className="bg-black px-4 py-2 border-t border-black rounded-l-lg"
           onClick={() => setShowIcons(true)}
         >
-          <FaArrowLeft className="text-white" />
+          <FaArrowLeft className="text-white rounded-l-lg" />
         </button>
       )}
       <motion.div

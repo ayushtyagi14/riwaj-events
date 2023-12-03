@@ -128,11 +128,11 @@ const Navbar = () => {
               hidden: { opacity: 0, y: -10 },
             }}
           >
-            <div className="h-max pb-5 flex flex-col md:px-10 px-5 text-white font-bold bg-[#ecab61]">
+            <div className="h-max pb-5 flex flex-col md:px-10 px-5 text-white font-bold bg-[#2a2a2ab7]">
               {navigation.map((item, index) => (
                 <Link
                   href={item.url}
-                  className="hover:bg-[#d59a30] p-2 transition-colors"
+                  className="hover:text-[#d59a30] p-2 transition-colors"
                   key={index}
                 >
                   {item.title}

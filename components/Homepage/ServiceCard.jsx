@@ -1,8 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 
 const ServiceCard = ({ imageUrl, desciption, title }) => {
+  const [expand, setExpand] = useState(false);
+
   return (
-    <div className="service-cards rounded-b-xl hover:cursor-pointer hover:h-[100%] h-[200px] overflow-hidden relative ease-in-out">
+    <div
+      className={`service-cards rounded-b-xl hover:cursor-pointer md:hover:h-[100%] ${
+        expand ? "h-full" : "h-[200px]"
+      } md:h-[200px] overflow-hidden relative ease-in-out`}
+      onClick={() => setExpand(!expand)}
+    >
       <div className="outlinePage ease-in-out relative rounded-[25px] w-[300px] h-[200px] overflow-hidden">
         <img src={imageUrl} alt={title} />
       </div>

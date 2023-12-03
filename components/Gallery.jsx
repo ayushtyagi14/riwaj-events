@@ -81,7 +81,7 @@ const Gallery = () => {
   };
 
   return (
-    <div className="w-[80%] mx-auto mb-16 leading-tight">
+    <div className="w-[80%] mx-auto mb-5 mt-6 leading-tight">
       <h1 className="text-center md:text-[80px] text-[40px] font-vibes text-[#d59a30]">
         Decoration Gallery
       </h1>

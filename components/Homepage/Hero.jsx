@@ -84,24 +84,14 @@ const Hero = () => {
                 className={"brightness-[70%] object-cover"}
               />
             </div>
-            {/* {currentSlideIndex === index && (
-              <motion.div
-                variants={slideIn("up", "tween", 0.5, 0.8)}
-                initial="hidden"
-                animate="show"
-                exit="hidden"
-                className="absolute top-[40%] lg:left-[22%] md:left-[10%] left-[5%] transform -translate-x-1/2 -translate-y-1/2 text-white text-center z-10"
-              >
-                <h1 className="lg:text-[80px] md:text-[70px] text-[36px] mt-20 font-vibes leading-none">
-                  {item.title}
-                </h1>
-              </motion.div>
-            )} */}
           </SwiperSlide>
         ))}
       </Swiper>
       <p className="text-white md:left-[17%] left-6 2xl:left-[30%] md:-mt-36 -mt-10 md:text-[46px] text-[28px] absolute z-[1] leading-tight font-vibes">
-        Welcome to <br /> <span className="lg:text-[180px] text-[70px] text-[#d59a30]">Riwaj Events</span>
+        Welcome to <br />{" "}
+        <span className="lg:text-[180px] text-[70px] text-[#d59a30]">
+          Riwaj Events
+        </span>
       </p>
     </div>
   );
