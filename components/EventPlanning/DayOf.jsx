@@ -16,7 +16,7 @@ const DayOf = () => {
     },
     {
       id: 3,
-      title: "Email, Phone, Text Availability",
+      title: "Email Phone and Text Availability",
       description:
         "A personal liaison with open lines of communication at every step of the way to answer any questions and provide advice.",
     },

@@ -11,7 +11,7 @@ const ServiceCard = ({ imageUrl, desciption, title }) => {
         <img src={imageUrl} alt={title} />
       </div>
       <div className="detailPage flex flex-col text-center items-center p-4 relative bg-white w-[300px] h-full ease-in-out">
-        <h2 className="font-vibes text-[36px]">{title}</h2>
+        <h2 className="font-vibes text-[36px] leading-none mb-2">{title}</h2>
         <p>{desciption}</p>
       </div>
     </div>

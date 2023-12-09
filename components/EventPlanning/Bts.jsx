@@ -34,7 +34,7 @@ const Bts = () => {
     },
     {
       id: 6,
-      title: "Site Visits and Shopping Services",
+      title: "Site Visits & Shopping Services",
       description:
         "Venue visits, curation of shopping lists, purchasing, vendor and price negotiation, budgeting, etc. ",
     },

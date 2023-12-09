@@ -56,19 +56,19 @@ const Work = () => {
       </p>
       <div className="grid lg:grid-cols-5 md:grid-cols-2 grid-cols-1 items-start gap-6 mt-10">
         {pastWork.map((item) => (
-          <div className="flex flex-col pricing-card md:h-[370px] h-[330px]" key={item.id}>
+          <div className="flex flex-col pricing-card md:h-[360px] h-[330px]" key={item.id}>
             <div className="flex flex-col items-center">
               <img
                 src={item.imgUrl}
                 alt="Floral Work Riwaj Events"
                 className="w-full object-cover h-40 rounded-t-[20px]"
               />
-              <p className="text-[24px] font-vibes my-4 text-[#d59a30]">
+              <p className="text-[20px] font-vibes my-4 text-[#d59a30]">
                 {item.title}
               </p>
             </div>
             <div className="flex flex-col items-center justify-between h-full pb-2">
-              <p className="text-white text-center">{item.description}</p>
+              <p className="text-white text-center text-[14px] px-2">{item.description}</p>
               <button
                 className="border-black border rounded-full hover:shadow-lg text-white hover:text-[#d59a30]"
                 onClick={() => router.push(item.url)}

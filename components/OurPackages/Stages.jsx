@@ -4,7 +4,7 @@ const Stages = () => {
   const pricing = [
     {
       id: 1,
-      title: "Intimate & Soirees",
+      title: "Intimate and Soirees",
       price: "$1500",
       description: "Small events and home decor (i.e baby showers, birthdays)",
       keyPoints: [
@@ -31,7 +31,7 @@ const Stages = () => {
     },
     {
       id: 3,
-      title: "Bridal & Venue",
+      title: "Bridal and Venue",
       price: "$3500",
       description:
         "Decor packages including basic draping, non-customizable  floral and prop designs. For Wedding and Reception events (200+ guests)",
@@ -64,7 +64,7 @@ const Stages = () => {
     <>
       <div className="flex flex-col items-center w-[90%] mx-auto mt-5 mb-16 text-white">
         <h1 className="text-center md:text-[80px] text-[50px] font-vibes text-[#d59a30] mb-3">
-          Stages & Backdrop
+          Stages and Backdrop
         </h1>
         <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8">
           {pricing.map((item) => (
@@ -114,14 +114,14 @@ const Stages = () => {
               <li className="mt-2">Customization of existing floral pieces</li>
               <li className="mt-2">Centerpiece Florals</li>
               <li className="mt-2">
-                Silk & Fresh Floral Design (Fresh florals are subject to
+                Silk and Fresh Floral Design (Fresh florals are subject to
                 additional supply costs)
               </li>
             </ul>
           </div>
           <div className="pricing-card flex flex-col gap-5 p-8 cursor-pointer">
             <p className="font-vibes text-[30px] bg-[#d59a30] py-2 px-4 rounded-full text-center">
-              Centerpieces & Rental
+              Centerpieces and Rental
             </p>
             <div className="flex flex-col items-center gap-3">
               <h1 className="text-[24px] font-bold text-[#d59a30]">

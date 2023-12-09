@@ -41,11 +41,11 @@ const All = () => {
         "Our all-inclusive package for planning and coordination. Let us completely take the reigns and ensure a well-timed and collaborative process that results in a detailed and cohesive event that captures your vision on all fronts.",
       keyPoints: [
         "Event Concept",
-        "Budgeting & Disbursement",
+        "Budgeting and Disbursement",
         "Vendor Procurement",
         "Itinerary Coordination",
         "Entrance and Ceremony Coordination",
-        "Seating Chart & Guest Services:",
+        "Seating Chart and Guest Services:",
         "Email, Phone, Text availability",
         "5-1 hour virtual or phone conferences",
         "10-1 hour in-person conferences",
@@ -56,7 +56,7 @@ const All = () => {
   return (
     <div className="flex flex-col items-center w-[90%] mx-auto mt-5 mb-16 text-white">
       <h1 className="text-center md:text-[80px] text-[50px] font-vibes text-[#d59a30] mb-3">
-        All Planning and Coordination Packages:
+        All Planning & Coordination Packages:
       </h1>
       <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8">
         {pricing.map((item) => (

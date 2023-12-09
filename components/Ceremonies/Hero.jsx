@@ -22,7 +22,7 @@ const Hero = () => {
         initial="hidden"
         animate="show"
         exit="hidden"
-        className="absolute top-[40%] md:left-[40%] left-[34%] transform -translate-x-1/2 -translate-y-1/2 text-white text-center z-10"
+        className="absolute top-[40%] md:left-[37%] left-[34%] transform -translate-x-1/2 -translate-y-1/2 text-white text-center z-10"
       >
         <h1 className="lg:text-[80px] md:text-[70px] text-[36px] mt-20 font-vibes leading-none">
           Ceremonies
