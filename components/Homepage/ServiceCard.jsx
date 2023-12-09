@@ -5,10 +5,7 @@ const ServiceCard = ({ imageUrl, desciption, title }) => {
 
   return (
     <div
-      className={`service-cards rounded-b-xl hover:cursor-pointer md:hover:h-[100%] ${
-        expand ? "h-full" : "h-[200px]"
-      } md:h-[200px] overflow-hidden relative ease-in-out`}
-      onClick={() => setExpand(!expand)}
+      className={`service-cards rounded-b-xl hover:cursor-pointer md:hover:h-[100%] md:h-[200px] overflow-hidden relative ease-in-out`}
     >
       <div className="outlinePage ease-in-out relative rounded-[25px] w-[300px] h-[200px] overflow-hidden">
         <img src={imageUrl} alt={title} />

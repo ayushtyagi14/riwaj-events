@@ -7,6 +7,7 @@ import { FaPhone, FaEnvelope } from "react-icons/fa";
 const Navbar = () => {
   const [dropdown, setDropdown] = useState(false);
   const [scrolling, setScrolling] = useState(false);
+  const [eventDecorationHover, setEventDecorationHover] = useState(false);
 
   const router = useRouter();
 
@@ -28,12 +29,12 @@ const Navbar = () => {
       title: "Centerpieces",
     },
     {
-      url: "/mehndi-decor",
-      title: "Mehndi Decor",
-    },
-    {
-      url: "/wedding-decor",
-      title: "Wedding Decor",
+      title: "Event Decoration",
+      dropdownOptions: [
+        { url: "/wedding-decor", title: "Wedding Decor" },
+        { url: "/mehndi-decor", title: "Mehndi Decor" },
+        { url: "/ceremonies", title: "Ceremonies" },
+      ],
     },
     {
       url: "/event-planning",
@@ -107,13 +108,37 @@ const Navbar = () => {
 
       <div className="text-white text-center lg:flex hidden flex-row w-full justify-evenly pt-2">
         {navigation.map((item, index) => (
-          <Link
-            href={item.url}
-            className="hover:text-[#d59a30] p-2 transition-colors"
+          <div
             key={index}
+            className="relative group"
+            onMouseEnter={() =>
+              item.title === "Event Decoration" && setEventDecorationHover(true)
+            }
+            onMouseLeave={() =>
+              item.title === "Event Decoration" &&
+              setEventDecorationHover(false)
+            }
           >
-            {item.title}
-          </Link>
+            <Link
+              href={item.url || "#"} // Adjust the URL accordingly
+              className="hover:text-[#d59a30] p-2 transition-colors"
+            >
+              {item.title}
+            </Link>
+            {item.dropdownOptions && eventDecorationHover && (
+              <div className="absolute z-10 top-full left-0 bg-[#2a2a2ab7] p-2 rounded-md w-max">
+                {item.dropdownOptions.map((option, optionIndex) => (
+                  <Link
+                    href={option.url || "#"} // Adjust the URL accordingly
+                    key={optionIndex}
+                    className="block hover:text-[#d59a30] p-2 transition-colors"
+                  >
+                    {option.title}
+                  </Link>
+                ))}
+              </div>
+            )}
+          </div>
         ))}
       </div>
 
