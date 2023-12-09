@@ -153,15 +153,34 @@ const Navbar = () => {
               hidden: { opacity: 0, y: -10 },
             }}
           >
-            <div className="h-max pb-5 flex flex-col md:px-10 px-5 text-white font-bold bg-[#2a2a2ab7]">
+            <div className="h-max pb-5 flex flex-col md:px-10 px-5 py-4 text-white font-bold bg-[#2a2a2a]">
               {navigation.map((item, index) => (
-                <Link
-                  href={item.url}
-                  className="hover:text-[#d59a30] p-2 transition-colors"
+                <div
                   key={index}
+                  className="relative group p-2"
+                  onClick={() =>
+                    item.title === "Event Decoration" &&
+                    setEventDecorationHover(!eventDecorationHover)
+                  }
                 >
-                  {item.title}
-                </Link>
+                  <Link
+                    href={item.url || "#"} // Adjust the URL accordingly
+                    className="hover:text-[#d59a30] transition-colors"
+                  >
+                    {item.title}
+                  </Link>
+                  {item.dropdownOptions &&
+                    eventDecorationHover &&
+                    item.dropdownOptions.map((option, optionIndex) => (
+                      <Link
+                        href={option.url || "#"} // Adjust the URL accordingly
+                        key={optionIndex}
+                        className="block hover:text-[#d59a30] p-2 transition-colors text-center font-normal"
+                      >
+                        {option.title}
+                      </Link>
+                    ))}
+                </div>
               ))}
               <div
                 className="flex flex-col items-center my-3"
