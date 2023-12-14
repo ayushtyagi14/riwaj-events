@@ -1,5 +1,7 @@
 import React from "react";
 import ServiceCard from "./ServiceCard";
+import { motion } from "framer-motion";
+import { fadeIn } from "../../utils/motion";
 
 const Services = () => {
   const serviceData = [
@@ -68,11 +70,16 @@ const Services = () => {
   ];
 
   return (
-    <div className="flex flex-col items-center w-[90%] mx-auto md:mt-28">
+    <motion.div
+      className="flex flex-col items-center w-[90%] mx-auto md:mt-28"
+      variants={fadeIn("up", "spring", 0.2, 0.8)}
+      initial="hidden"
+      whileInView="show"
+    >
       <h1 className="text-center md:text-[80px] text-[50px] font-vibes text-[#d59a30]">
         Our Services
       </h1>
-      <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 items-center gap-10">
+      <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 items-center gap-16">
         {serviceData.map((item) => (
           <>
             <ServiceCard
@@ -83,7 +90,7 @@ const Services = () => {
           </>
         ))}
       </div>
-    </div>
+    </motion.div>
   );
 };
 

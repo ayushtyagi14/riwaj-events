@@ -13,7 +13,7 @@ import Sidebar from '../components/Sidebar'
 const Homepage = () => {
 
     return (
-        <>
+        <div className='overflow-x-hidden'>
             <MyHead title={"Homepage | Riwaj Events"} description={"This is the Homepage of Riwaj Events"} />
             <Sidebar />
             <Hero />
@@ -24,7 +24,7 @@ const Homepage = () => {
             <Gallery />
             <Calendly />
             <Footer />
-        </>
+        </div>
     )
 }
 

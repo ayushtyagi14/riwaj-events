@@ -4,7 +4,7 @@ import Navbar from "../Navbar";
 import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { motion } from "framer-motion";
-import { slideIn } from "../../utils/motion";
+import { fadeIn } from "../../utils/motion";
 import BlurImage from "../BlurImage";
 
 import "swiper/css";
@@ -87,12 +87,17 @@ const Hero = () => {
           </SwiperSlide>
         ))}
       </Swiper>
-      <p className="text-white md:left-[17%] left-6 2xl:left-[30%] md:-mt-36 -mt-10 md:text-[46px] text-[28px] absolute z-[1] leading-tight font-vibes">
-        Welcome to <br />{" "}
+      <motion.p
+        variants={fadeIn("down", "spring", 0.5, 1.25)}
+        initial="hidden"
+        whileInView="show"
+        className="text-white md:left-[17%] left-4 2xl:left-[30%] md:-mt-36 -mt-10 md:text-[46px] text-[28px] absolute z-[1] leading-tight font-vibes"
+      >
+        Welcome to <br />
         <span className="lg:text-[180px] text-[70px] text-[#d59a30]">
           Riwaj Events
         </span>
-      </p>
+      </motion.p>
     </div>
   );
 };

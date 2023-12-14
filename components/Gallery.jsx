@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { motion } from "framer-motion";
+import { fadeIn, slideIn } from "../utils/motion";
 
 const Gallery = () => {
   const [width, setWidth] = useState(null);
@@ -81,13 +83,23 @@ const Gallery = () => {
   };
 
   return (
-    <div className="w-[80%] mx-auto mb-5 mt-6 leading-tight">
-      <h1 className="text-center md:text-[80px] text-[40px] font-vibes text-[#d59a30]">
+    <div className="w-[80%] mx-auto mb-28 mt-6 leading-tight">
+      <motion.h1
+        className="text-center md:text-[80px] text-[40px] font-vibes text-[#d59a30]"
+        variants={slideIn("left", "spring", 0.8, 1.25)}
+        initial="hidden"
+        whileInView="show"
+      >
         Decoration Gallery
-      </h1>
-      <p className="text-center text-white text-[20px]">
+      </motion.h1>
+      <motion.p
+        className="text-center text-white md:text-[20px] text-[14px]"
+        variants={fadeIn("right", "spring", 0.8, 1.25)}
+        initial="hidden"
+        whileInView="show"
+      >
         Ready to Walk Down the Aisle?
-      </p>
+      </motion.p>
 
       <Slider {...settings}>
         {imgGallery.map((item) => (

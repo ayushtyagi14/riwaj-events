@@ -1,5 +1,7 @@
 import { useRouter } from "next/router";
 import React from "react";
+import { motion } from "framer-motion";
+import { fadeIn, slideIn } from "../../utils/motion";
 
 const Work = () => {
   const router = useRouter();
@@ -47,16 +49,33 @@ const Work = () => {
   ];
 
   return (
-    <div className="flex flex-col items-center w-[90%] mx-auto mt-5 leading-tight">
-      <h1 className="text-center md:text-[80px] text-[50px] font-vibes text-[#d59a30]">
+    <motion.div
+      className="flex flex-col items-center w-[90%] mx-auto my-28 leading-tight"
+      initial="hidden"
+      whileInView="show"
+    >
+      <motion.h1
+        className="text-center md:text-[80px] text-[50px] font-vibes text-[#d59a30]"
+        variants={slideIn("left", "spring", 0.8, 1.25)}
+        initial="hidden"
+        whileInView="show"
+      >
         Past Work
-      </h1>
-      <p className="text-center text-white text-[20px]">
+      </motion.h1>
+      <motion.p
+        className="text-center text-white md:text-[20px] text-[14px]"
+        variants={fadeIn("right", "spring", 0.8, 1.25)}
+        initial="hidden"
+        whileInView="show"
+      >
         Check out our amazing work from Real Weddings
-      </p>
+      </motion.p>
       <div className="grid lg:grid-cols-5 md:grid-cols-2 grid-cols-1 items-start gap-6 mt-10">
         {pastWork.map((item) => (
-          <div className="flex flex-col pricing-card md:h-[360px] h-[330px]" key={item.id}>
+          <div
+            className="flex flex-col pricing-card md:h-[360px] h-[330px]"
+            key={item.id}
+          >
             <div className="flex flex-col items-center">
               <img
                 src={item.imgUrl}
@@ -68,7 +87,9 @@ const Work = () => {
               </p>
             </div>
             <div className="flex flex-col items-center justify-between h-full pb-2">
-              <p className="text-white text-center text-[14px] px-2">{item.description}</p>
+              <p className="text-white text-center text-[14px] px-2">
+                {item.description}
+              </p>
               <button
                 className="border-black border rounded-full hover:shadow-lg text-white hover:text-[#d59a30]"
                 onClick={() => router.push(item.url)}
@@ -79,7 +100,7 @@ const Work = () => {
           </div>
         ))}
       </div>
-    </div>
+    </motion.div>
   );
 };
 

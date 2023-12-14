@@ -4,6 +4,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/autoplay";
 import "swiper/css/pagination";
+import { motion } from "framer-motion";
+import { slideIn } from "../../utils/motion";
 
 const Clients = () => {
   const autoplayDelay = 3000;
@@ -86,10 +88,15 @@ const Clients = () => {
   ];
 
   return (
-    <div className="mt-5">
-      <h1 className="text-center md:text-[80px] text-[50px] font-vibes text-[#d59a30]">
+    <div className="mt-32">
+      <motion.h1
+        className="text-center md:text-[80px] text-[50px] font-vibes text-[#d59a30]"
+        variants={slideIn("left", "spring", 0.2, 1.25)}
+        initial="hidden"
+        whileInView="show"
+      >
         From Our Clients
-      </h1>
+      </motion.h1>
       <Swiper
         ref={swiperRef}
         modules={[Autoplay, Pagination]}

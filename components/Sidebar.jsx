@@ -13,11 +13,61 @@ import {
 
 const Sidebar = () => {
   const socialIcons = [
-    { icon: <FaPhone className="text-white text-2xl" />, href: "#" },
-    { icon: <FaEnvelope className="text-white text-2xl" />, href: "#" },
-    { icon: <FaCalendar className="text-white text-2xl" />, href: "#" },
-    { icon: <FaWhatsapp className="text-white text-2xl" />, href: "#" },
-    { icon: <FaInstagram className="text-white text-2xl" />, href: "#" },
+    {
+      icon: (
+        <img
+          width="22"
+          height="22"
+          src="https://img.icons8.com/emoji/48/telephone-receiver.png"
+          alt="telephone-receiver"
+        />
+      ),
+      href: "tel:+15169048854",
+    },
+    {
+      icon: (
+        <img
+          width="22"
+          height="22"
+          src="https://img.icons8.com/emoji/22/envelope-.png"
+          alt="envelope-"
+        />
+      ),
+      href: "mailto:info@riwaj.events",
+    },
+    {
+      icon: (
+        <img
+          width="22"
+          height="22"
+          src="https://img.icons8.com/emoji/22/calendar-emoji.png"
+          alt="calendar-emoji"
+        />
+      ),
+      href: "/homepage/#booking",
+    },
+    {
+      icon: (
+        <img
+          width="22"
+          height="22"
+          src="https://img.icons8.com/fluency/22/whatsapp.png"
+          alt="whatsapp"
+        />
+      ),
+      href: "https://wa.me/+15169048854",
+    },
+    {
+      icon: (
+        <img
+          width="22"
+          height="22"
+          src="https://img.icons8.com/fluency/22/instagram-new.png"
+          alt="instagram-new"
+        />
+      ),
+      href: "https://www.instagram.com/riwajeventdecor",
+    },
   ];
 
   const [showIcons, setShowIcons] = useState(true);
@@ -63,8 +113,6 @@ const Sidebar = () => {
           <motion.a
             key={index}
             href={href}
-            target="_blank"
-            rel="noopener noreferrer"
             className={`hover:bg-[#ddb466] px-3 py-4 border-t border-black`}
             variants={iconsVariants}
           >
