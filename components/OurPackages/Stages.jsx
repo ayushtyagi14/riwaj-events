@@ -76,12 +76,13 @@ const Stages = () => {
                 {item.title}
               </p>
               <h1 className="text-[50px] font-extrabold text-center">
-                <span className="text-[14px]">Starting At</span> {item.price}
+                <span className="text-[14px] italic">Starting At</span>{" "}
+                {item.price}
               </h1>
-              <p className="text-center font-light text-[20px]">
+              <p className="text-center font-light text-[20px] italic">
                 {item.description}{" "}
               </p>
-              <ul className="mt-5">
+              <ul className="mt-5 italic">
                 {item.keyPoints.map((points, index) => (
                   <li className="mt-2" key={index}>
                     {points}
@@ -96,19 +97,19 @@ const Stages = () => {
             </p>
             <div className="leading-none font-extrabold text-end">
               <div className="mb-1 text-center">
-                <span className="text-[14px]">Starting At</span>{" "}
+                <span className="text-[14px] italic">Starting At</span>{" "}
                 <span className="text-[50px]">$1000</span>
               </div>
-              <span className="text-[14px] font-light">
+              <span className="text-[14px] font-light italic">
                 *plus package price
               </span>
             </div>
-            <p className="text-center font-light text-[20px] mt-3">
+            <p className="text-center font-light text-[20px] mt-3 italic">
               Our customized floral service which includes curation and design
               of custom florals and floral pieces. <br /> Including but not
               limited to:
             </p>
-            <ul className="mt-5">
+            <ul className="mt-5 italic">
               <li className="mt-2">Custom floral design</li>
               <li className="mt-2">Floral coordination</li>
               <li className="mt-2">Customization of existing floral pieces</li>
@@ -123,7 +124,7 @@ const Stages = () => {
             <p className="font-vibes text-[30px] bg-[#d59a30] py-2 px-4 rounded-full text-center">
               Centerpieces and Rental
             </p>
-            <div className="flex flex-col items-center gap-3">
+            <div className="flex flex-col items-center gap-3 italic">
               <h1 className="text-[24px] font-bold text-[#d59a30]">
                 Available rentals:
               </h1>

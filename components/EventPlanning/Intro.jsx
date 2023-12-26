@@ -3,7 +3,7 @@ import React from "react";
 const Intro = () => {
   return (
     <div className="text-white w-[90%] mx-auto my-10 flex flex-col gap-10 items-center">
-      <p className="md:text-[24px] font-light md:text-center">
+      <p className="md:text-[24px] font-light md:text-center italic">
         With a decade plus of events under our belt, Riwaj Events offers a team
         of established industry professionals and emerging talent that can match
         your pacing and expectations at each step of an otherwise long and

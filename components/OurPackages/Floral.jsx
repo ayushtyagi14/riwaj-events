@@ -11,7 +11,7 @@ const Floral = () => {
           <p className="font-vibes text-[30px] bg-[#d59a30] py-2 px-4 rounded-full text-center">
             Bouquets and Arrangements
           </p>
-          <div className="grid md:grid-cols-3 grid-cols-1 md:gap-10 gap-5">
+          <div className="grid md:grid-cols-3 grid-cols-1 md:gap-10 gap-5 italic">
             <p className="text-center text-[18px]">
               <span className="font-bold text-[18px]">Small:</span> <br />{" "}
               $75-$125
@@ -25,7 +25,7 @@ const Floral = () => {
               $175-$200 (Silk $100)
             </p>
           </div>
-          <div className="flex flex-col items-center text-center mt-8 text-[18px]">
+          <div className="flex flex-col items-center text-center mt-8 text-[18px] italic">
             <p>
               <span className="font-bold">Custom Arrangement: </span> <br />{" "}
               $250-$1200

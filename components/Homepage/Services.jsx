@@ -28,17 +28,17 @@ const Services = () => {
     },
     {
       id: 4,
-      title: "Bouquets & Centerpieces",
-      imgUrl: "/centerpiece.jpg",
-      description:
-        "Select from a wide range of floral, silk, and non-floral pieces.",
-    },
-    {
-      id: 5,
       title: "Vendor Procurement",
       imgUrl: "/vendor.jpg",
       description:
         "Let us find you the perfect team of vendors from our trusted collaborators all across the industry.",
+    },
+    {
+      id: 5,
+      title: "Bouquets & Centerpieces",
+      imgUrl: "/centerpiece.jpg",
+      description:
+        "Select from a wide range of floral, silk, and non-floral pieces.",
     },
     {
       id: 6,

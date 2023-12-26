@@ -159,3 +159,44 @@ export const footerVariants = {
         },
     },
 };
+
+export const fadeInAndScale = (delay, duration) => ({
+    hidden: {
+        scale: 0,
+        opacity: 0,
+    },
+    show: {
+        scale: 1,
+        opacity: 1,
+        transition: {
+            type: 'tween',
+            delay,
+            duration,
+            ease: 'easeOut',
+        },
+    },
+});
+
+// motion.js
+export const typewriterEffect = (delayPerCharacter) => ({
+    hidden: { opacity: 0 },
+    show: {
+        opacity: 1,
+        transition: {
+            delay: 0.5,
+            staggerChildren: delayPerCharacter,
+        },
+    },
+});
+
+export const typewriterText = {
+    hidden: { opacity: 0, width: 0 },
+    show: {
+        opacity: 1,
+        width: '100%',
+        transition: {
+            duration: 0.8,
+            ease: 'easeOut',
+        },
+    },
+};

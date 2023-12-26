@@ -49,7 +49,7 @@ const HappyBride = () => {
       <h1 className="text-center md:text-[80px] text-[50px] font-vibes text-[#d59a30] mb-3">
         &quot;Happy Bride&quot; Package
       </h1>
-      <p className="text-[18px] text-center w-[80%]">
+      <p className="text-[18px] text-center w-[80%] italic">
         Our all-inclusive package for planning and coordination. Let us
         completely take the reigns and ensure a well-timed and collaborative
         process that results in a detailed and cohesive event that captures your

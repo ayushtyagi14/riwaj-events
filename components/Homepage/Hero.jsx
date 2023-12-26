@@ -4,8 +4,8 @@ import Navbar from "../Navbar";
 import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { motion } from "framer-motion";
-import { fadeIn } from "../../utils/motion";
 import BlurImage from "../BlurImage";
+import Typewriter from "typewriter-effect";
 
 import "swiper/css";
 import "swiper/css/autoplay";
@@ -76,9 +76,9 @@ const Hero = () => {
         className="mySwiper"
         onSlideChange={handleSlideChange}
       >
-        {heroImages.map((item, index) => (
+        {heroImages.map((item) => (
           <SwiperSlide key={item.id}>
-            <div className="lg:h-[98vh] md:h-[75vh] h-[55vh]">
+            <div className="lg:h-[85vh] md:h-[75vh] h-[55vh]">
               <BlurImage
                 image={item.imgUrl}
                 className={"brightness-[70%] object-cover"}
@@ -87,17 +87,21 @@ const Hero = () => {
           </SwiperSlide>
         ))}
       </Swiper>
-      <motion.p
-        variants={fadeIn("down", "spring", 0.5, 1.25)}
-        initial="hidden"
-        whileInView="show"
-        className="text-white md:left-[17%] left-4 2xl:left-[30%] md:-mt-36 -mt-10 md:text-[46px] text-[28px] absolute z-[1] leading-tight font-vibes"
-      >
+      <motion.div className="text-white md:left-[12%] left-4 2xl:left-[30%] md:-mt-36 -mt-10 md:text-[46px] text-[28px] absolute z-[1] leading-tight font-vibes">
         Welcome to <br />
-        <span className="lg:text-[180px] text-[70px] text-[#d59a30]">
-          Riwaj Events
+        <span
+          className="lg:text-[180px] md:text-[120px] text-[70px] text-[#d59a30]"
+          style={{ whiteSpace: "nowrap" }}
+        >
+          <Typewriter
+            options={{
+              strings: ["Riwaj Events"],
+              autoStart: true,
+              loop: true,
+            }}
+          />
         </span>
-      </motion.p>
+      </motion.div>
     </div>
   );
 };

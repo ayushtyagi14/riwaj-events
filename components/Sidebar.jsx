@@ -1,70 +1,33 @@
 import React from "react";
 import { useState } from "react";
 import { motion } from "framer-motion";
-import {
-  FaInstagram,
-  FaWhatsapp,
-  FaEnvelope,
-  FaPhone,
-  FaCalendar,
-  FaArrowRight,
-  FaArrowLeft,
-} from "react-icons/fa";
+import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 
 const Sidebar = () => {
   const socialIcons = [
     {
       icon: (
-        <img
-          width="22"
-          height="22"
-          src="https://img.icons8.com/emoji/48/telephone-receiver.png"
-          alt="telephone-receiver"
-        />
+        <img width="22" height="22" src="/phone.png" alt="telephone-receiver" />
       ),
       href: "tel:+15169048854",
     },
     {
-      icon: (
-        <img
-          width="22"
-          height="22"
-          src="https://img.icons8.com/emoji/22/envelope-.png"
-          alt="envelope-"
-        />
-      ),
+      icon: <img width="22" height="22" src="/mail.png" alt="envelope-" />,
       href: "mailto:info@riwaj.events",
     },
     {
       icon: (
-        <img
-          width="22"
-          height="22"
-          src="https://img.icons8.com/emoji/22/calendar-emoji.png"
-          alt="calendar-emoji"
-        />
+        <img width="22" height="22" src="/calendar.png" alt="calendar-emoji" />
       ),
       href: "/homepage/#booking",
     },
     {
-      icon: (
-        <img
-          width="22"
-          height="22"
-          src="https://img.icons8.com/fluency/22/whatsapp.png"
-          alt="whatsapp"
-        />
-      ),
+      icon: <img width="22" height="22" src="/whatsapp.png" alt="whatsapp" />,
       href: "https://wa.me/+15169048854",
     },
     {
       icon: (
-        <img
-          width="22"
-          height="22"
-          src="https://img.icons8.com/fluency/22/instagram-new.png"
-          alt="instagram-new"
-        />
+        <img width="22" height="22" src="/instagram.png" alt="instagram-new" />
       ),
       href: "https://www.instagram.com/riwajeventdecor",
     },

@@ -3,7 +3,7 @@ import React from "react";
 const Intro = () => {
   return (
     <div className="text-white w-[90%] mx-auto my-10 flex flex-col gap-10 items-center">
-      <p className="md:text-[24px] font-light md:text-center">
+      <p className="md:text-[24px] font-light md:text-center italic">
         Our talented team of floral artists are well versed in industry trends
         and traditions. In addition to offering a wide array of styles and
         compositions, we customize all of our arrangements and curate the design
@@ -27,7 +27,7 @@ const Intro = () => {
         <h1 className="text-center md:text-[80px] text-[50px] font-vibes text-[#d59a30] mb-3">
           Pricing
         </h1>
-        <div className="pricing-card flex flex-col items-center gap-5 p-8 cursor-pointer">
+        <div className="pricing-card flex flex-col items-center gap-5 p-8 cursor-pointer italic">
           <div className="grid md:grid-cols-3 grid-cols-1 md:gap-10 gap-5">
             <p className="text-center text-[18px]">
               <span className="font-bold text-[18px]">Small:</span> <br />{" "}

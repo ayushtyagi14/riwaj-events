@@ -9,7 +9,7 @@ const GetInTouch = () => {
           <h1 className="font-vibes lg:text-[60px] md:text-[50px] text-[36px] text-[#d59a30]">
             Get In Touch
           </h1>
-          <p className="w-[80%] font-inter text-[18px]">
+          <p className="w-[80%] font-inter text-[18px] italic">
             We make it simple to get the pricing, availability, and answers you
             need to make the best decision for your special day. Reach out to us
             now to get one step closer to securing a vendor that will work with
@@ -21,14 +21,14 @@ const GetInTouch = () => {
               Contact Information
             </h1>
             <div
-              className="flex flex-row items-center mb-2 cursor-pointer"
+              className="flex flex-row items-center mb-2 cursor-pointer italic"
               href="tel:+15169048854"
             >
               <FaPhone className="mr-2" />
               <span>+1 516-904-8854</span>
             </div>
             <div
-              className="flex flex-row items-center mb-2 cursor-pointer"
+              className="flex flex-row items-center mb-2 cursor-pointer italic"
               href="mailto:info@riwaj.events"
             >
               <FaEnvelope className="mr-2" />

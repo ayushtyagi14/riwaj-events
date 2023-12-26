@@ -58,9 +58,9 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className={` ${scrolling ? "bg-[#2a2a2ab7]" : "bg-[#2a2a2a41]"}`}>
+    <div className={` ${scrolling ? "bg-[#2a2a2ab7]" : "bg-[#2a2a2a41]"} italic`}>
       <div
-        className={`grid grid-cols-3 px-4 md:px-10 py-2 lg:py-0 text-white text-[15px] ${
+        className={`grid grid-cols-3 px-4 md:px-10 py-2 lg:py-0 text-white text-[15px] 2xl:text-[18px] ${
           dropdown ? "bg-none" : "bg-none"
         }`}
       >
@@ -106,7 +106,7 @@ const Navbar = () => {
         </div>
       </div>
 
-      <div className="text-white text-center lg:flex hidden flex-row w-full justify-evenly pt-2">
+      <div className="text-white text-center lg:flex hidden flex-row w-full justify-evenly pt-2 2xl:text-[18px]">
         {navigation.map((item, index) => (
           <div
             key={index}

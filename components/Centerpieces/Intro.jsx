@@ -3,7 +3,7 @@ import React from "react";
 const Intro = () => {
   return (
     <div className="text-white w-[90%] mx-auto my-10 flex flex-col gap-10 items-center">
-      <p className="md:text-[24px] font-light md:text-center">
+      <p className="md:text-[24px] font-light md:text-center italic">
         Our centerpieces are catered to a variety of styles and tastes from
         contemporary pieces to more traditional styles. We specialize in floral
         centerpieces as well as centerpieces with south asian and middle eastern

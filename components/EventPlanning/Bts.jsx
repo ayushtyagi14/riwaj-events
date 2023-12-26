@@ -45,7 +45,7 @@ const Bts = () => {
       <h1 className="text-center md:text-[80px] text-[50px] font-vibes text-[#d59a30] mb-3">
         &quot;Behind the Scenes&quot; Package
       </h1>
-      <p className="text-[18px] text-center w-[80%]">
+      <p className="text-[18px] text-center w-[80%] italic">
         For all planning and coordination needs prior to the day of your event.
         Background, planning, and coordination between the different moving
         parts of your event.
@@ -59,7 +59,7 @@ const Bts = () => {
             <h1 className="font-vibes text-[26px] bg-[#d59a30] py-1 px-3 rounded-full text-center">
               {item.title}
             </h1>
-            <p className="text-center">{item.description}</p>
+            <p className="text-center italic">{item.description}</p>
           </div>
         ))}
       </div>
