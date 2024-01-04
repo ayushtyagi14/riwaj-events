@@ -58,7 +58,11 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className={` ${scrolling ? "bg-[#2a2a2ab7]" : "bg-[#2a2a2a41]"} italic`}>
+    <div
+      className={` ${
+        scrolling ? "bg-[#2a2a2ab7]" : "bg-[#2a2a2a41]"
+      } italic fixed w-full z-[999]`}
+    >
       <div
         className={`grid grid-cols-3 px-4 md:px-10 py-2 lg:py-0 text-white text-[15px] 2xl:text-[18px] ${
           dropdown ? "bg-none" : "bg-none"
@@ -73,7 +77,7 @@ const Navbar = () => {
             )}
           </div>
           <div
-            className="lg:flex hidden flex-col items-end text-[18px] cursor-pointer"
+            className="lg:flex hidden flex-col items-end text-[14px] 2xl:text-[16px] cursor-pointer"
             href="tel:+15169048854"
           >
             <div className="flex flex-row items-center mb-2 hover:text-[#d59a30]">
@@ -88,19 +92,19 @@ const Navbar = () => {
             <img
               src="/logo.png"
               alt="logo"
-              className="md:w-[28%] mt-2 rounded-lg cursor-pointer"
+              className="md:w-[20%] mt-2 rounded-lg cursor-pointer"
             />
           </div>
         </Link>
 
         <div
           className="lg:flex hidden flex-row items-center justify-start cursor-pointer"
-          href="mailto:info@riwaj.events"
+          href="mailto:riwajeventdecor@gmail.com"
         >
-          <div className="flex flex-col items-start text-[18px]">
+          <div className="flex flex-col items-start text-[14px] 2xl:text-[16px]">
             <div className="flex flex-row items-center mb-2 hover:text-[#d59a30]">
               <FaEnvelope className="mr-2" />
-              <span>info@riwaj.events</span>
+              <span>riwajeventdecor@gmail.com</span>
             </div>
           </div>
         </div>

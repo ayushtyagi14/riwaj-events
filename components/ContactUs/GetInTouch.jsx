@@ -29,10 +29,10 @@ const GetInTouch = () => {
             </div>
             <div
               className="flex flex-row items-center mb-2 cursor-pointer italic"
-              href="mailto:info@riwaj.events"
+              href="mailto:riwajeventdecor@gmail.com"
             >
               <FaEnvelope className="mr-2" />
-              <span>info@riwaj.events</span>
+              <span>riwajeventdecor@gmail.com</span>
             </div>
           </div>
         </div>

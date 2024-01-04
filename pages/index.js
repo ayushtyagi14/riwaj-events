@@ -9,9 +9,9 @@ export default function Home() {
     <div>
       <MyHead title={"Riwaj Events"} description={"Welcome To Riwaj Events!"} />
       <div className='h-screen overflow-hidden flex flex-col items-center justify-center relative'>
-        <img src="/logo.png" alt="Logo" className='md:h-[400px] h-[200px] mx-auto' />
+        <img src="/logo.png" alt="Logo" className='md:h-[450px] h-[200px] mx-auto' />
         <button
-          className='bg-[#d59a30] border-2 border-[#d59a30] text-[20px] hover:bg-[#725b2e] uppercase text-white md:w-[20%] w-[60%] mx-auto py-2 rounded-lg mt-10'
+          className='bg-[#d59a30] border-2 border-[#d59a30] text-[20px] hover:bg-inherit text-white px-10 py-2 rounded mt-10 italic'
           onClick={() => router.push('/homepage')}
         >
           Enter

@@ -9,7 +9,7 @@ const AboutUs = () => {
         {/* First */}
         <div className="w-full flex flex-col relative -mt-16">
           <motion.div
-            className="about-card flex lg:flex-row flex-col-reverse items-center gap-4 lg:w-[45%] h-[350px] md:h-[300px] lg:h-[150px] 2xl:h-[200px] w-[80%] md:w-[60%] 2xl:w-[45%] px-5 py-2 absolute justify-end right-[3rem] md:right-[12rem] lg:right-[28rem] 2xl:right-[46.2rem] -mt-[8rem] 2xl:-mt-[7rem] z-[990]"
+            className="about-card flex lg:flex-row flex-col-reverse items-center gap-4 lg:w-[45%] h-[350px] md:h-[300px] lg:h-[150px] 2xl:h-[200px] w-[80%] md:w-[60%] 2xl:w-[45%] px-5 py-2 absolute justify-end right-[3rem] md:right-[12rem] lg:right-[28rem] 2xl:right-[46.2rem] -mt-[8rem] 2xl:-mt-[7rem] z-[890]"
             variants={slideIn("right", "spring", 0.2, 1.25)}
             initial="hidden"
             whileInView="show"
@@ -37,12 +37,12 @@ const AboutUs = () => {
             </p>
             <img
               src="/mehndi-poloroid.png"
-              alt="Aliya Salem"
+              alt="Mehndi Poloroid"
               className="w-[200px] 2xl:w-[350px] lg:-mt-[12rem] 2xl:-mt-[19rem] rounded-lg"
             />
           </motion.div>
           <motion.div
-            className="lg:block absolute hidden 2xl:mt-20 lg:mt-[2rem] 2xl:left-[26rem] left-[21rem] z-[999]"
+            className="lg:block absolute hidden 2xl:mt-20 lg:mt-[2rem] 2xl:left-[26rem] left-[21rem] z-[899]"
             variants={fadeInAndScale(0.2, 1.25)}
             initial="hidden"
             whileInView="show"

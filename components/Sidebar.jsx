@@ -13,7 +13,7 @@ const Sidebar = () => {
     },
     {
       icon: <img width="22" height="22" src="/mail.png" alt="envelope-" />,
-      href: "mailto:info@riwaj.events",
+      href: "mailto:riwajeventdecor@gmail.com",
     },
     {
       icon: (

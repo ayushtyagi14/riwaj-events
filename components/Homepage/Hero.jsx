@@ -5,7 +5,8 @@ import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { motion } from "framer-motion";
 import BlurImage from "../BlurImage";
-import Typewriter from "typewriter-effect";
+// import Typewriter from "typewriter-effect";
+import { Typewriter } from "react-simple-typewriter";
 
 import "swiper/css";
 import "swiper/css/autoplay";
@@ -78,7 +79,7 @@ const Hero = () => {
       >
         {heroImages.map((item) => (
           <SwiperSlide key={item.id}>
-            <div className="lg:h-[85vh] md:h-[75vh] h-[55vh]">
+            <div className="lg:h-[85vh] 2xl:h-[90vh] md:h-[75vh] h-[55vh]">
               <BlurImage
                 image={item.imgUrl}
                 className={"brightness-[70%] object-cover"}
@@ -87,18 +88,20 @@ const Hero = () => {
           </SwiperSlide>
         ))}
       </Swiper>
-      <motion.div className="text-white md:left-[12%] left-4 2xl:left-[30%] md:-mt-36 -mt-10 md:text-[46px] text-[28px] absolute z-[1] leading-tight font-vibes">
+      <motion.div className="text-white md:left-[14%] left-4 2xl:left-[30%] md:-mt-36 -mt-10 md:text-[46px] text-[28px] absolute z-[1] leading-none font-vibes">
         Welcome to <br />
         <span
           className="lg:text-[180px] md:text-[120px] text-[70px] text-[#d59a30]"
           style={{ whiteSpace: "nowrap" }}
         >
           <Typewriter
-            options={{
-              strings: ["Riwaj Events"],
-              autoStart: true,
-              loop: true,
-            }}
+            words={["Riwaj Events"]}
+            loop={1}
+            cursor
+            cursorStyle="_"
+            typeSpeed={120}
+            deleteSpeed={50}
+            delaySpeed={5000}
           />
         </span>
       </motion.div>
