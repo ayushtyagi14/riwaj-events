@@ -4,7 +4,7 @@ import { FaPhone, FaEnvelope } from "react-icons/fa";
 const GetInTouch = () => {
   return (
     <>
-      <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 items-center my-10 w-[90%] mx-auto text-white">
+      <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 items-center my-10 w-[90%] mx-auto text-white mt-40">
         <div className="flex flex-col h-full items-start justify-evenly">
           <h1 className="font-vibes lg:text-[60px] md:text-[50px] text-[36px] text-[#d59a30]">
             Get In Touch

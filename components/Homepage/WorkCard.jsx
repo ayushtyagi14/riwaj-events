@@ -28,7 +28,7 @@ const WorkCard = ({
         className="absolute w-full h-full object-cover rounded-[24px]"
       />
       {active !== id ? (
-        <h3 className="font-semibold text-[32px] text-white absolute z-0 lg:bottom-20 lg:rotate-[-90deg] lg:origin-[0,0] font-vibes">
+        <h3 className="font-semibold md:text-[32px] text-[24px] text-white absolute z-0 lg:bottom-20 lg:rotate-[-90deg] lg:origin-[0,0] font-vibes">
           {title}
         </h3>
       ) : (

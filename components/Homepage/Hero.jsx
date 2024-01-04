@@ -1,20 +1,11 @@
-import React, { useEffect, useState, useRef } from "react";
-import Image from "next/image";
+import React, { useEffect, useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
 import Navbar from "../Navbar";
-import { Autoplay } from "swiper/modules";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { motion } from "framer-motion";
 import BlurImage from "../BlurImage";
-// import Typewriter from "typewriter-effect";
 import { Typewriter } from "react-simple-typewriter";
-
-import "swiper/css";
-import "swiper/css/autoplay";
+import Image from "next/image";
 
 const Hero = () => {
-  const autoplayDelay = 3000;
-  const videoDelay = 1500;
-
   const [width, setWidth] = useState(null);
   let mobile = false;
 
@@ -32,8 +23,7 @@ const Hero = () => {
     mobile = false;
   }
 
-  const swiperRef = useRef(null);
-  const [currentSlideIndex, setCurrentSlideIndex] = useState(0);
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   const heroImages = [
     {
@@ -53,42 +43,36 @@ const Hero = () => {
     },
   ];
 
-  const handleSlideChange = (swiper) => {
-    setCurrentSlideIndex(swiper.realIndex);
-  };
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentImageIndex((prevIndex) => (prevIndex + 1) % heroImages.length);
+    }, 4000); // Adjust the interval time as needed
+
+    return () => clearInterval(interval);
+  }, [heroImages.length]);
 
   return (
     <div className="relative">
       <div className="absolute top-0 left-0 right-0 z-10 opacity-[85%]">
         <Navbar />
       </div>
-      <Swiper
-        ref={swiperRef}
-        modules={[Autoplay]}
-        spaceBetween={0}
-        slidesPerView={1}
-        autoplay={{
-          delay: autoplayDelay,
-          disableOnInteraction: false,
-        }}
-        speed={videoDelay}
-        loop={true}
-        centeredSlides={false}
-        className="mySwiper"
-        onSlideChange={handleSlideChange}
-      >
-        {heroImages.map((item) => (
-          <SwiperSlide key={item.id}>
-            <div className="lg:h-[85vh] 2xl:h-[90vh] md:h-[75vh] h-[55vh]">
-              <BlurImage
-                image={item.imgUrl}
-                className={"brightness-[70%] object-cover"}
-              />
-            </div>
-          </SwiperSlide>
-        ))}
-      </Swiper>
-      <motion.div className="text-white md:left-[14%] left-4 2xl:left-[30%] md:-mt-36 -mt-10 md:text-[46px] text-[28px] absolute z-[1] leading-none font-vibes">
+      <AnimatePresence mode="wait">
+        <motion.div
+          key={currentImageIndex}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1, transition: { duration: 1.5 } }}
+          exit={{ opacity: 0, transition: { duration: 0.5 } }}
+          className="lg:h-[85vh] 2xl:h-[90vh] md:h-[75vh] h-[55vh]"
+        >
+          <Image
+            src={heroImages[currentImageIndex].imgUrl}
+            alt={heroImages[currentImageIndex].title}
+            fill
+            className={"brightness-[70%] object-cover"}
+          />
+        </motion.div>
+      </AnimatePresence>
+      <motion.div className="text-white md:left-[16%] left-4 2xl:left-[30%] md:-mt-36 -mt-10 md:text-[46px] text-[28px] absolute z-[1] leading-none font-vibes">
         Welcome to <br />
         <span
           className="lg:text-[180px] md:text-[120px] text-[70px] text-[#d59a30]"
@@ -97,8 +81,6 @@ const Hero = () => {
           <Typewriter
             words={["Riwaj Events"]}
             loop={1}
-            cursor
-            cursorStyle="_"
             typeSpeed={120}
             deleteSpeed={50}
             delaySpeed={5000}

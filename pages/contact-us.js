@@ -10,6 +10,7 @@ const ContactUs = () => {
         <>
             <MyHead title={"Contact Us | Riwaj Events"} description={"This is the Contact Us of Riwaj Events"} />
             <Navbar />
+            <br />
             <GetInTouch />
             <Calendly />
             <Footer />

@@ -9,7 +9,7 @@ import {
 
 const Footer = () => {
   return (
-    <footer className="bg-[#ff9e3041] text-white text-center py-6">
+    <footer className="bg-[#ff9e3041] text-white text-center py-6 italic">
       <div className="flex flex-col items-center">
         <div className="flex md:flex-row flex-col items-center">
           <div
@@ -21,10 +21,10 @@ const Footer = () => {
           </div>
           <div
             className="flex flex-row items-center cursor-pointer"
-            href="mailto:info@riwaj.events"
+            href="mailto:riwajeventdecor@gmail.com"
           >
             <FaEnvelope className="mr-2" />
-            <span>info@riwaj.events</span>
+            <span>riwajeventdecor@gmail.com</span>
           </div>
         </div>
         <div className="flex flex-row items-center mt-5 justify-center text-[24px]">
