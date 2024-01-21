@@ -19,13 +19,13 @@ const AboutUs = () => {
               taking the first steps to planning your perfect wedding!
             </p>
             <img
-              src="/aliya-poloroid.png"
+              src="/aliya-salem.jpg"
               alt="Aliya Salem"
-              className="w-[200px] 2xl:w-full -mt-2 rounded-lg"
+              className="w-[200px] 2xl:w-[250px] -mt-2"
             />
           </motion.div>
           <motion.div
-            className="about-card flex flex-col-reverse items-center justify-end gap-4 lg:w-[350px] h-[400px] md:h-[350px] lg:h-[220px] 2xl:h-[320px] w-[80%] md:w-[60%] 2xl:w-[450px] px-3 lg:py-10 py-7 absolute lg:mt-[1rem] left-[1.8rem] md:left-[8rem] lg:-left-[6rem] 2xl:mt-20 mt-[16rem] 2xl:-left-[10rem] bg-[#d8b281]"
+            className="about-card flex flex-col-reverse items-center justify-end gap-4 lg:w-[350px] h-[400px] md:h-[350px] lg:h-[220px] 2xl:h-[320px] w-[80%] md:w-[60%] 2xl:w-[450px] px-3 lg:py-10 py-7 absolute lg:mt-[1rem] left-[1.8rem] md:left-[8rem] lg:-left-[6rem] 2xl:mt-20 mt-[16rem] 2xl:-left-[10rem] bg-[#d59a30]"
             variants={slideIn("left", "spring", 0.2, 1.25)}
             initial="hidden"
             whileInView="show"
@@ -36,9 +36,9 @@ const AboutUs = () => {
               influences that have been centuries in the making.
             </p>
             <img
-              src="/mehndi-poloroid.png"
+              src="/mehndi-banner.jpg"
               alt="Mehndi Poloroid"
-              className="w-[200px] 2xl:w-[350px] lg:-mt-[12rem] 2xl:-mt-[19rem] rounded-lg"
+              className="w-[220px] 2xl:w-[320px] lg:-mt-[8rem] 2xl:-mt-[10rem] rounded-lg"
             />
           </motion.div>
           <motion.div
@@ -48,9 +48,9 @@ const AboutUs = () => {
             whileInView="show"
           >
             <img
-              src="/mehndi-poloroid.png"
+              src="/mehndi-banner.jpg"
               alt="Aliya Salem"
-              className="w-[360px] 2xl:w-[470px] -mt-[3.2rem] rounded-lg"
+              className="w-[360px] 2xl:w-[470px] mt-[0.5rem] 2xl:mt-[1.8rem] rounded-lg"
             />
           </motion.div>
         </div>
@@ -58,7 +58,7 @@ const AboutUs = () => {
         {/* Second */}
         <div className="w-full flex lg:flex-col flex-col lg:mt-[24rem] mt-[43rem] relative">
           <motion.div
-            className="about-card flex lg:flex-col-reverse flex-col-reverse items-center gap-4 lg:w-[350px] h-[400px] md:h-[350px] lg:h-[220px] w-[80%] md:w-[60%] 2xl:h-[320px] 2xl:w-[450px] px-3 lg:py-10 py-7 justify-end absolute right-[2.9rem] md:right-[12rem] lg:right-[8rem] 2xl:right-[20rem] lg:-mt-[23rem] 2xl:-mt-[19rem] bg-[#d8b281]"
+            className="about-card flex lg:flex-col-reverse flex-col-reverse items-center gap-4 lg:w-[350px] h-[400px] md:h-[350px] lg:h-[220px] w-[80%] md:w-[60%] 2xl:h-[320px] 2xl:w-[450px] px-3 lg:py-10 py-7 justify-end absolute right-[2.9rem] md:right-[12rem] lg:right-[8rem] 2xl:right-[20rem] lg:-mt-[23rem] 2xl:-mt-[19rem] bg-[#d59a30]"
             variants={slideIn("right", "spring", 0.2, 1.25)}
             initial="hidden"
             whileInView="show"
@@ -69,22 +69,22 @@ const AboutUs = () => {
               will be unique to you and the wedding you have always dreamed of.
             </p>
             <img
-              src="/centerpiece-poloroid.png"
+              src="/centerpiece-banner.jpg"
               alt="Aliya Salem"
-              className="w-[200px] 2xl:w-[320px] 2xl:-mt-[18rem] lg:-mt-[12rem] rounded-lg"
+              className="w-[200px] 2xl:w-[250px] -mt-[10rem] rounded-lg"
             />
           </motion.div>
           <motion.div
-            className="about-card flex flex-col items-center gap-4 lg:w-[80%] w-[80%] md:w-[60%] 2xl:w-[65%] h-[770px] md:h-[650px] lg:h-[210px] 2xl:h-[350px] px-5 lg:py-10 py-6 absolute 2xl:mt-12 lg:-mt-28 mt-[27.5rem] left-[1.8rem] md:left-[8rem] lg:left-[0rem] 2xl:left-[5rem] bg-[#d59a30]"
+            className="about-card flex flex-col items-center gap-4 lg:w-[80%] w-[80%] md:w-[60%] 2xl:w-[65%] h-[770px] md:h-[650px] lg:h-[210px] 2xl:h-[300px] px-5 lg:py-10 py-6 absolute 2xl:mt-12 lg:-mt-28 mt-[27.5rem] left-[1.8rem] md:left-[8rem] lg:left-[0rem] 2xl:left-[5rem] bg-[#d59a30]"
             variants={slideIn("left", "spring", 0.2, 1.25)}
             initial="hidden"
             whileInView="show"
           >
-            <div className="flex lg:flex-row flex-col items-center">
+            <div className="flex lg:flex-row flex-col items-center gap-2">
               <img
-                src="/reception-poloroid.png"
+                src="/reception.jpg"
                 alt="Aliya Salem"
-                className="w-[200px] 2xl:w-[320px] lg:-mt-28 rounded-lg"
+                className="w-[200px] 2xl:w-[280px] lg:-mt-28 rounded-lg"
               />
               <p className="2xl:text-[22px] text-center">
                 Drawing influence from the rich and colorful traditions of South
@@ -92,9 +92,9 @@ const AboutUs = () => {
                 visual philosophies that have been centuries in the making.
               </p>
               <img
-                src="/centerpiece2-poloroid.png"
+                src="/centerpiece/centerpiece51.jpg"
                 alt="Aliya Salem"
-                className="w-[200px] 2xl:w-[320px] lg:-mt-28 rounded-lg"
+                className="w-[200px] 2xl:w-[280px] lg:-mt-28 rounded-lg"
               />
             </div>
             <p className="2xl:text-[22px] text-center">
