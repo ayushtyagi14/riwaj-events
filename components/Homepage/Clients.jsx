@@ -117,8 +117,8 @@ const Clients = () => {
           <SwiperSlide key={item.id}>
             <div className="text-white flex flex-col items-start w-full text-center mt-5 md:p-10 mb-8 p-6">
               <img src="/quote.png" alt="quotes left" />
-              <div className="flex flex-col items-center md:w-[80%] mx-auto">
-                <p className="text-[22px] font-thin mb-4 italic">
+              <div className="flex flex-col items-center md:w-[80%] mx-auto mt-10 lg:mt-0">
+                <p className="lg:text-[22px] font-thin mb-4 italic">
                   {item.review}
                 </p>
                 <h1 className="text-[30px] font-vibes text-[#d59a30]">
