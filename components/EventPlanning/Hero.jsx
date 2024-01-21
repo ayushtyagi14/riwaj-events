@@ -22,12 +22,12 @@ const Hero = () => {
         initial="hidden"
         animate="show"
         exit="hidden"
-        className="absolute flex flex-col items-center top-[40%] left-[2%] lg:left-0 gap-[4rem] lg:top-[20%] xl:top-[40%] transform -translate-x-1/2 -translate-y-1/2 text-white text-center z-10"
+        className="absolute flex flex-col items-center top-[40%] left-[2%] lg:left-0 gap-[3rem] lg:top-[20%] xl:top-[40%] transform -translate-x-1/2 -translate-y-1/2 text-white text-center z-10"
       >
         <h1 className="lg:text-[100px] 2xl:text-[120px] md:text-[70px] text-[36px] mt-20 font-vibes leading-none">
           Event Planning & Coordination
         </h1>
-        <p className="font-medium lg:block hidden lg:text-[18px] xl:text-[22px] md:text-center italic w-[80%] mx-auto xl:w-[60%]">
+        <p className="font-medium lg:block hidden lg:text-[18px] xl:text-[22px] md:text-center italic w-[80%] mx-auto">
           With a decade plus of events under our belt, Riwaj Events offers a
           team of established industry professionals and emerging talent that
           can match your pacing and expectations at each step of an otherwise

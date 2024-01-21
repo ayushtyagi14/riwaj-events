@@ -115,10 +115,12 @@ const Clients = () => {
       >
         {testimonials.map((item) => (
           <SwiperSlide key={item.id}>
-            <div className="text-[#d59a30] flex flex-col items-start w-full text-center mt-5 md:p-10 mb-8 p-6">
+            <div className="text-white flex flex-col items-start w-full text-center mt-5 md:p-10 mb-8 p-6">
               <img src="/quote.png" alt="quotes left" />
               <div className="flex flex-col items-center md:w-[80%] mx-auto">
-                <p className="text-[22px] font-thin mb-4 italic">{item.review}</p>
+                <p className="text-[22px] font-thin mb-4 italic">
+                  {item.review}
+                </p>
                 <h1 className="text-[30px] font-vibes text-[#d59a30]">
                   - {item.name}
                 </h1>

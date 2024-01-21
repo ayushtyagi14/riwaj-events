@@ -70,7 +70,7 @@ const Navbar = () => {
       } italic fixed w-full z-[999]`}
     >
       <div
-        className={`grid grid-cols-3 px-4 md:px-10 py-2 lg:py-0 text-white ${
+        className={`grid grid-cols-3 px-4 md:px-10 py-2 lg:py-0 lg:pb-2 text-white ${
           dropdown ? "bg-none" : "bg-none"
         }`}
       >
