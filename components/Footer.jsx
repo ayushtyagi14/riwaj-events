@@ -8,6 +8,35 @@ import {
 } from "react-icons/fa";
 
 const Footer = () => {
+  const socialIcons = [
+    {
+      icon: (
+        <img width="22" height="22" src="/phone.png" alt="telephone-receiver" />
+      ),
+      href: "tel:+15169048854",
+    },
+    {
+      icon: <img width="22" height="22" src="/mail.png" alt="envelope-" />,
+      href: "mailto:info@riwaj.events",
+    },
+    {
+      icon: (
+        <img width="22" height="22" src="/calendar.png" alt="calendar-emoji" />
+      ),
+      href: "/homepage/#booking",
+    },
+    {
+      icon: <img width="22" height="22" src="/whatsapp.png" alt="whatsapp" />,
+      href: "https://wa.me/+15169048854",
+    },
+    {
+      icon: (
+        <img width="22" height="22" src="/instagram.png" alt="instagram-new" />
+      ),
+      href: "https://www.instagram.com/riwajeventdecor",
+    },
+  ];
+
   return (
     <footer className="bg-[#ff9e3041] text-white text-center py-6 italic">
       <div className="flex flex-col items-center">
@@ -21,22 +50,22 @@ const Footer = () => {
           </div>
           <div
             className="flex flex-row items-center cursor-pointer"
-            href="mailto:riwajeventdecor@gmail.com"
+            href="mailto:info@riwaj.events"
           >
             <FaEnvelope className="mr-2" />
-            <span>riwajeventdecor@gmail.com</span>
+            <span>info@riwaj.events</span>
           </div>
         </div>
         <div className="flex flex-row items-center mt-5 justify-center text-[24px]">
-          <a href="#" className="hover:bg-[#6a540c] rounded-full p-2 mr-2">
-            <FaFacebookF className="text-white" />
-          </a>
-          <a href="#" className="hover:bg-[#6a540c] rounded-full p-2 mr-2">
-            <FaTwitter className="text-white" />
-          </a>
-          <a href="#" className="hover:bg-[#6a540c] rounded-full p-2">
-            <FaInstagram className="text-white" />
-          </a>
+          {socialIcons.map(({ icon, href }, index) => (
+            <a
+              key={index}
+              href={href}
+              className="hover:bg-[#6a540c] rounded-full p-2 w-[40px]"
+            >
+              {icon}
+            </a>
+          ))}
         </div>
       </div>
       <div className="text-white text-center mt-5">

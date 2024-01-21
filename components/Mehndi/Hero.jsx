@@ -22,11 +22,23 @@ const Hero = () => {
         initial="hidden"
         animate="show"
         exit="hidden"
-        className="absolute top-[40%] md:left-[28%] 2xl:left-[34%] left-[30%] transform -translate-x-1/2 -translate-y-1/2 text-white text-center z-10"
+        className="absolute flex flex-col items-center top-[40%] left-[30%] lg:left-0 gap-[4rem] lg:top-[20%] xl:top-[40%] transform -translate-x-1/2 -translate-y-1/2 text-white text-center z-10"
       >
         <h1 className="lg:text-[100px] 2xl:text-[120px] md:text-[70px] text-[36px] mt-20 font-vibes leading-none">
           Mehndi Decor
         </h1>
+        <p className="font-medium lg:block hidden lg:text-[18px] xl:text-[22px] md:text-center italic w-[80%] mx-auto xl:w-[60%]">
+          The tradition of the Mehndi is rooted in color and spectacle and our
+          stages are no different. By combining a rich palette of earthy greens,
+          vibrant yellows, deep blues, and a myriad of other colors, we make
+          sure that the atmosphere of the venue is just as colorful as the
+          journey that you and your loved one are about to embark on! We accent
+          this colorful scene with traditional South Asian and Middle Eastern
+          pottery and quilt-work. Floral frames and arrangements may also be
+          implemented to embellish the other decorations. Our mehndi designs are
+          a perfect tool to create a lively event and set the tone for grand
+          celebration!
+        </p>
       </motion.div>
     </div>
   );

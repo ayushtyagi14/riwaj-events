@@ -93,7 +93,7 @@ const Gallery = () => {
         Decoration Gallery
       </motion.h1>
       <motion.p
-        className="text-center text-white md:text-[20px] text-[14px]"
+        className="text-center text-white md:text-[20px] text-[14px] italic"
         variants={fadeIn("right", "spring", 0.8, 1.25)}
         initial="hidden"
         whileInView="show"

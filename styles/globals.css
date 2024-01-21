@@ -41,7 +41,7 @@ body::-webkit-scrollbar {
 }
 
 .swiper-pagination-bullet {
-  background-color: white !important;
+  background-color: black !important;
   opacity: 0.6 !important;
 }
 
@@ -66,7 +66,6 @@ body::-webkit-scrollbar {
 .about-card {
   backdrop-filter: blur(5px) saturate(172%);
   -webkit-backdrop-filter: blur(5px) saturate(172%);
-  background-color: rgba(18, 18, 18, 0.4);
   border-radius: 12px;
   border: 1.5px solid #d59b30bd;
 }
@@ -74,7 +73,7 @@ body::-webkit-scrollbar {
 .client-card {
   backdrop-filter: blur(5px) saturate(172%);
   -webkit-backdrop-filter: blur(5px) saturate(172%);
-  background-color: rgba(18, 18, 18, 0.4);
+  background-color: rgba(255, 255, 255, 0.914);
   border-top: 2px solid rgba(255, 255, 255, 0.125);
   border-bottom: 2px solid rgba(255, 255, 255, 0.125);
 }

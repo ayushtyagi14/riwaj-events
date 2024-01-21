@@ -3,7 +3,7 @@ import React from "react";
 const Intro = () => {
   return (
     <div className="text-white w-[90%] mx-auto my-10 flex flex-col gap-10 items-center">
-      <p className="md:text-[24px] font-light md:text-center italic">
+      <p className="md:text-[24px] font-light md:text-center italic block lg:hidden">
         The tradition of the Mehndi is rooted in color and spectacle and our
         stages are no different. By combining a rich palette of earthy greens,
         vibrant yellows, deep blues, and a myriad of other colors, we make sure

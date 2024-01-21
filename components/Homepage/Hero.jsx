@@ -72,7 +72,7 @@ const Hero = () => {
           />
         </motion.div>
       </AnimatePresence>
-      <motion.div className="text-white md:left-[16%] left-4 2xl:left-[30%] md:-mt-36 -mt-10 md:text-[46px] text-[28px] absolute z-[1] leading-none font-vibes">
+      <motion.div className="text-white md:left-[14%] lg:left-[16%] xl:left-[20%] left-4 2xl:left-[30%] md:-mt-36 -mt-10 md:text-[46px] text-[28px] absolute z-[1] leading-none font-vibes">
         Welcome to <br />
         <span
           className="lg:text-[180px] md:text-[120px] text-[70px] text-[#d59a30]"

@@ -9,7 +9,7 @@ const AboutUs = () => {
         {/* First */}
         <div className="w-full flex flex-col relative -mt-16">
           <motion.div
-            className="about-card flex lg:flex-row flex-col-reverse items-center gap-4 lg:w-[45%] h-[350px] md:h-[300px] lg:h-[150px] 2xl:h-[200px] w-[80%] md:w-[60%] 2xl:w-[45%] px-5 py-2 absolute justify-end right-[3rem] md:right-[12rem] lg:right-[28rem] 2xl:right-[46.2rem] -mt-[8rem] 2xl:-mt-[7rem] z-[890]"
+            className="about-card flex lg:flex-row flex-col-reverse items-center gap-4 lg:w-[45%] h-[350px] md:h-[300px] lg:h-[150px] 2xl:h-[200px] w-[80%] md:w-[60%] 2xl:w-[45%] px-5 py-2 absolute justify-end right-[3rem] md:right-[12rem] lg:right-[28rem] 2xl:right-[46.2rem] -mt-[10rem] 2xl:-mt-[9rem] z-[890] bg-[#d59a30]"
             variants={slideIn("right", "spring", 0.2, 1.25)}
             initial="hidden"
             whileInView="show"
@@ -25,7 +25,7 @@ const AboutUs = () => {
             />
           </motion.div>
           <motion.div
-            className="about-card flex flex-col-reverse items-center justify-end gap-4 lg:w-[350px] h-[400px] md:h-[350px] lg:h-[220px] 2xl:h-[320px] w-[80%] md:w-[60%] 2xl:w-[450px] px-3 lg:py-10 py-7 absolute lg:mt-[1rem] left-[1.8rem] md:left-[8rem] lg:-left-[6rem] 2xl:mt-20 mt-[16rem] 2xl:-left-[10rem]"
+            className="about-card flex flex-col-reverse items-center justify-end gap-4 lg:w-[350px] h-[400px] md:h-[350px] lg:h-[220px] 2xl:h-[320px] w-[80%] md:w-[60%] 2xl:w-[450px] px-3 lg:py-10 py-7 absolute lg:mt-[1rem] left-[1.8rem] md:left-[8rem] lg:-left-[6rem] 2xl:mt-20 mt-[16rem] 2xl:-left-[10rem] bg-[#d8b281]"
             variants={slideIn("left", "spring", 0.2, 1.25)}
             initial="hidden"
             whileInView="show"
@@ -42,7 +42,7 @@ const AboutUs = () => {
             />
           </motion.div>
           <motion.div
-            className="lg:block absolute hidden 2xl:mt-20 lg:mt-[2rem] 2xl:left-[26rem] left-[21rem] z-[899]"
+            className="lg:block absolute hidden 2xl:mt-[3.7rem] lg:mt-[0.3rem] 2xl:left-[26rem] left-[20rem] z-[899]"
             variants={fadeInAndScale(0.2, 1.25)}
             initial="hidden"
             whileInView="show"
@@ -50,7 +50,7 @@ const AboutUs = () => {
             <img
               src="/mehndi-poloroid.png"
               alt="Aliya Salem"
-              className="w-[320px] 2xl:w-[470px] -mt-[3.2rem] rounded-lg"
+              className="w-[360px] 2xl:w-[470px] -mt-[3.2rem] rounded-lg"
             />
           </motion.div>
         </div>
@@ -58,7 +58,7 @@ const AboutUs = () => {
         {/* Second */}
         <div className="w-full flex lg:flex-col flex-col lg:mt-[24rem] mt-[43rem] relative">
           <motion.div
-            className="about-card flex lg:flex-col-reverse flex-col-reverse items-center gap-4 lg:w-[350px] h-[400px] md:h-[350px] lg:h-[220px] w-[80%] md:w-[60%] 2xl:h-[320px] 2xl:w-[450px] px-3 lg:py-10 py-7 justify-end absolute right-[2.9rem] md:right-[12rem] lg:right-[8rem] 2xl:right-[20rem] lg:-mt-[23rem] 2xl:-mt-[19rem]"
+            className="about-card flex lg:flex-col-reverse flex-col-reverse items-center gap-4 lg:w-[350px] h-[400px] md:h-[350px] lg:h-[220px] w-[80%] md:w-[60%] 2xl:h-[320px] 2xl:w-[450px] px-3 lg:py-10 py-7 justify-end absolute right-[2.9rem] md:right-[12rem] lg:right-[8rem] 2xl:right-[20rem] lg:-mt-[23rem] 2xl:-mt-[19rem] bg-[#d8b281]"
             variants={slideIn("right", "spring", 0.2, 1.25)}
             initial="hidden"
             whileInView="show"
@@ -75,7 +75,7 @@ const AboutUs = () => {
             />
           </motion.div>
           <motion.div
-            className="about-card flex flex-col items-center gap-4 lg:w-[80%] w-[80%] md:w-[60%] 2xl:w-[65%] h-[770px] md:h-[650px] lg:h-[210px] 2xl:h-[350px] px-5 lg:py-10 py-6 absolute 2xl:mt-12 lg:-mt-28 mt-[27.5rem] left-[1.8rem] md:left-[8rem] lg:left-[0rem] 2xl:left-[5rem]"
+            className="about-card flex flex-col items-center gap-4 lg:w-[80%] w-[80%] md:w-[60%] 2xl:w-[65%] h-[770px] md:h-[650px] lg:h-[210px] 2xl:h-[350px] px-5 lg:py-10 py-6 absolute 2xl:mt-12 lg:-mt-28 mt-[27.5rem] left-[1.8rem] md:left-[8rem] lg:left-[0rem] 2xl:left-[5rem] bg-[#d59a30]"
             variants={slideIn("left", "spring", 0.2, 1.25)}
             initial="hidden"
             whileInView="show"

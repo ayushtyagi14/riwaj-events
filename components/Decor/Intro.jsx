@@ -3,7 +3,7 @@ import React from "react";
 const Intro = () => {
   return (
     <div className="text-white w-[90%] mx-auto my-10 flex flex-col gap-10 items-center">
-      <p className="md:text-[24px] font-light md:text-center italic">
+      <p className="md:text-[24px] font-light md:text-center italic block lg:hidden">
         Our design team uses a variety of techniques to create a wedding stage.
         We cater the overall design and feel of the stage to the preferences of
         our Bride and Groom by using elements such as draping, framing, and

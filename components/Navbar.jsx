@@ -13,22 +13,27 @@ const Navbar = () => {
 
   const navigation = [
     {
+      id: 1,
       url: "/contact-us",
       title: "Contact Us",
     },
     {
+      id: 2,
       url: "/our-packages",
       title: "Our Package",
     },
     {
+      id: 3,
       url: "/florals",
       title: "Florals",
     },
     {
+      id: 4,
       url: "/centerpieces",
       title: "Centerpieces",
     },
     {
+      id: 5,
       title: "Event Decoration",
       dropdownOptions: [
         { url: "/wedding-decor", title: "Wedding Decor" },
@@ -37,6 +42,7 @@ const Navbar = () => {
       ],
     },
     {
+      id: 6,
       url: "/event-planning",
       title: "Event Planning",
     },
@@ -64,11 +70,11 @@ const Navbar = () => {
       } italic fixed w-full z-[999]`}
     >
       <div
-        className={`grid grid-cols-3 px-4 md:px-10 py-2 lg:py-0 text-white text-[15px] 2xl:text-[18px] ${
+        className={`grid grid-cols-3 px-4 md:px-10 py-2 lg:py-0 text-white ${
           dropdown ? "bg-none" : "bg-none"
         }`}
       >
-        <div className="flex flex-row items-center lg:justify-end justify-start">
+        <div className="flex flex-row items-center lg:justify-end justify-start w-full">
           <div className="cursor-pointer lg:hidden block">
             {!dropdown ? (
               <img src="/menu.png" onClick={() => setDropdown(true)} />
@@ -76,13 +82,25 @@ const Navbar = () => {
               <img src="/close.png" onClick={() => setDropdown(false)} />
             )}
           </div>
-          <div
-            className="lg:flex hidden flex-col items-end text-[14px] 2xl:text-[16px] cursor-pointer"
-            href="tel:+15169048854"
-          >
-            <div className="flex flex-row items-center mb-2 hover:text-[#d59a30]">
+          <div className="lg:flex hidden flex-col items-end cursor-pointer">
+            <div
+              className="flex flex-row items-center mb-2 hover:text-[#d59a30] text-[15px] 2xl:text-[16px]"
+              href="tel:+15169048854"
+            >
               <FaPhone className="mr-2" />
               <span>+1 516-904-8854</span>
+            </div>
+            <div className="text-white text-center lg:flex hidden flex-row w-full gap-4 pt-2 2xl:text-[18px]">
+              {navigation.slice(0, 3).map((item, index) => (
+                <div key={index} className="relative group">
+                  <Link
+                    href={item.url || "#"} // Adjust the URL accordingly
+                    className="hover:text-[#d59a30] p-2 transition-colors text-[18px]"
+                  >
+                    {item.title}
+                  </Link>
+                </div>
+              ))}
             </div>
           </div>
         </div>
@@ -92,58 +110,61 @@ const Navbar = () => {
             <img
               src="/logo.png"
               alt="logo"
-              className="md:w-[20%] mt-2 rounded-lg cursor-pointer"
+              className="md:w-[35%] mt-2 rounded-lg cursor-pointer"
             />
           </div>
         </Link>
 
-        <div
-          className="lg:flex hidden flex-row items-center justify-start cursor-pointer"
-          href="mailto:riwajeventdecor@gmail.com"
-        >
-          <div className="flex flex-col items-start text-[14px] 2xl:text-[16px]">
-            <div className="flex flex-row items-center mb-2 hover:text-[#d59a30]">
-              <FaEnvelope className="mr-2" />
-              <span>riwajeventdecor@gmail.com</span>
+        <div className="flex flex-row items-center justify-start">
+          <div className="lg:flex hidden flex-col items-start cursor-pointer">
+            <div
+              className="flex flex-col items-start text-[15px] 2xl:text-[16px]"
+              href="mailto:info@riwaj.events"
+            >
+              <div className="flex flex-row items-center mb-2 hover:text-[#d59a30]">
+                <FaEnvelope className="mr-2" />
+                <span>info@riwaj.events</span>
+              </div>
+            </div>
+
+            <div className="text-white text-center lg:flex hidden flex-row w-full gap-4 pt-2 2xl:text-[18px]">
+              {navigation.slice(3, 6).map((item, index) => (
+                <div
+                  key={index}
+                  className="relative group"
+                  onMouseEnter={() =>
+                    item.title === "Event Decoration" &&
+                    setEventDecorationHover(true)
+                  }
+                  onMouseLeave={() =>
+                    item.title === "Event Decoration" &&
+                    setEventDecorationHover(false)
+                  }
+                >
+                  <Link
+                    href={item.url || "#"} // Adjust the URL accordingly
+                    className="hover:text-[#d59a30] transition-colors text-[18px]"
+                  >
+                    {item.title}
+                  </Link>
+                  {item.dropdownOptions && eventDecorationHover && (
+                    <div className="absolute z-10 top-full left-0 bg-[#2a2a2ab7] p-2 rounded-md w-max">
+                      {item.dropdownOptions.map((option, optionIndex) => (
+                        <Link
+                          href={option.url || "#"} // Adjust the URL accordingly
+                          key={optionIndex}
+                          className="block hover:text-[#d59a30] p-2 transition-colors text-[18px]"
+                        >
+                          {option.title}
+                        </Link>
+                      ))}
+                    </div>
+                  )}
+                </div>
+              ))}
             </div>
           </div>
         </div>
-      </div>
-
-      <div className="text-white text-center lg:flex hidden flex-row w-full justify-evenly pt-2 2xl:text-[18px]">
-        {navigation.map((item, index) => (
-          <div
-            key={index}
-            className="relative group"
-            onMouseEnter={() =>
-              item.title === "Event Decoration" && setEventDecorationHover(true)
-            }
-            onMouseLeave={() =>
-              item.title === "Event Decoration" &&
-              setEventDecorationHover(false)
-            }
-          >
-            <Link
-              href={item.url || "#"} // Adjust the URL accordingly
-              className="hover:text-[#d59a30] p-2 transition-colors"
-            >
-              {item.title}
-            </Link>
-            {item.dropdownOptions && eventDecorationHover && (
-              <div className="absolute z-10 top-full left-0 bg-[#2a2a2ab7] p-2 rounded-md w-max">
-                {item.dropdownOptions.map((option, optionIndex) => (
-                  <Link
-                    href={option.url || "#"} // Adjust the URL accordingly
-                    key={optionIndex}
-                    className="block hover:text-[#d59a30] p-2 transition-colors"
-                  >
-                    {option.title}
-                  </Link>
-                ))}
-              </div>
-            )}
-          </div>
-        ))}
       </div>
 
       <AnimatePresence>

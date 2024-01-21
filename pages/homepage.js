@@ -21,8 +21,8 @@ const Homepage = () => {
             <Services />
             <Clients />
             <Work />
-            <Gallery />
             <Calendly />
+            <Gallery />
             <Footer />
         </div>
     )
