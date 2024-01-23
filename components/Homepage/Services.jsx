@@ -8,7 +8,7 @@ const Services = () => {
     {
       id: 1,
       title: "Event Design",
-      imgUrl: "/event-designing.jpg",
+      imgUrl: "/event-designing.png",
       description:
         "Our aesthetic philosophy and industry experience. Your style and individuality. An immersive experience for your guests.",
     },
@@ -49,7 +49,7 @@ const Services = () => {
     {
       id: 7,
       title: "Wedding & Reception",
-      imgUrl: "/reception.jpg",
+      imgUrl: "/wedding-reception.jpg",
       description:
         "With thousands of events under our belt, we know just what it takes to make your ceremony a work of art.",
     },

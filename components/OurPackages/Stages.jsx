@@ -5,7 +5,7 @@ const Stages = () => {
     {
       id: 1,
       title: "Intimate and Soirees",
-      price: "$1500",
+      price: "$2500",
       description: "Small events and home decor (i.e baby showers, birthdays)",
       keyPoints: [
         "10-16 ft backdrop",
@@ -17,7 +17,7 @@ const Stages = () => {
     {
       id: 2,
       title: "Mehndi Night",
-      price: "$2500",
+      price: "$3000",
       description:
         "Colorful decor packages for Mehendi, Sangeet, and Dholki events",
       keyPoints: [
@@ -25,7 +25,7 @@ const Stages = () => {
         "Choice of: swing, bench, ottomans, or traditional chairs",
         "Stage Uplighting",
         "Stage embellishments: lanterns, umbrellas, matkis, etc.",
-        "Traditional centerpieces (up to 15 tables)",
+        // "Traditional centerpieces (up to 15 tables)",
         "Florals not included",
       ],
     },
@@ -46,7 +46,7 @@ const Stages = () => {
     {
       id: 4,
       title: "Nikkah Ceremony",
-      price: "$2000",
+      price: "$3000",
       description:
         "All white, floral designs including partition and ceremony setup",
       keyPoints: [

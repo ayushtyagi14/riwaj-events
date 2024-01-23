@@ -36,7 +36,7 @@ const AboutUs = () => {
               influences that have been centuries in the making.
             </p>
             <img
-              src="/mehndi-banner.jpg"
+              src="/scrapbook-left.jpg"
               alt="Mehndi Poloroid"
               className="w-[220px] 2xl:w-[320px] lg:-mt-[8rem] 2xl:-mt-[10rem] rounded-lg"
             />
@@ -48,7 +48,7 @@ const AboutUs = () => {
             whileInView="show"
           >
             <img
-              src="/mehndi-banner.jpg"
+              src="/scrapbook-center.jpg"
               alt="Aliya Salem"
               className="w-[360px] 2xl:w-[470px] mt-[0.5rem] 2xl:mt-[1.8rem] rounded-lg"
             />

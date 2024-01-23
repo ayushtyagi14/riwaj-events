@@ -28,17 +28,22 @@ const Hero = () => {
   const heroImages = [
     {
       id: "1",
-      imgUrl: "/hero-banner1.jpg",
+      imgUrl: "/hero-banner4.jpg",
       title: "Your Vision, Our Expertise",
     },
     {
       id: "2",
-      imgUrl: "/hero-banner2.jpg",
+      imgUrl: "/hero-banner1.jpeg",
       title: "Experience the Extraordinary",
     },
     {
       id: "3",
-      imgUrl: "/hero-banner3.jpg",
+      imgUrl: "/hero-banner3.jpeg",
+      title: "Creating Lasting Memories",
+    },
+    {
+      id: "3",
+      imgUrl: "/hero-banner2.jpeg",
       title: "Creating Lasting Memories",
     },
   ];
