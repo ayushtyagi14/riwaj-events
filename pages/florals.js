@@ -10,22 +10,22 @@ const Florals = () => {
         {
             id: 1,
             itemType: "image",
-            imgUrl: "/floral/floral1.jpg"
+            imgUrl: "/floral/floral1.jpeg"
         },
         {
             id: 2,
             itemType: "image",
-            imgUrl: "/floral/floral2.jpg"
+            imgUrl: "/floral/floral2.jpeg"
         },
         {
             id: 3,
             itemType: "image",
-            imgUrl: "/floral/floral3.jpg"
+            imgUrl: "/floral/floral3.jpeg"
         },
         {
             id: 4,
             itemType: "image",
-            imgUrl: "/floral/floral4.jpg"
+            imgUrl: "/floral/floral4.jpeg"
         },
         {
             id: 5,
@@ -35,7 +35,7 @@ const Florals = () => {
         {
             id: 6,
             itemType: "image",
-            imgUrl: "/floral/floral6.jpg"
+            imgUrl: "/floral/floral6.jpeg"
         },
         {
             id: 7,
@@ -45,7 +45,7 @@ const Florals = () => {
         {
             id: 8,
             itemType: "image",
-            imgUrl: "/floral/floral8.jpg"
+            imgUrl: "/floral/floral8.jpeg"
         },
         {
             id: 9,
@@ -56,12 +56,7 @@ const Florals = () => {
             id: 10,
             itemType: "image",
             imgUrl: "/floral/floral10.jpg"
-        },
-        {
-            id: 11,
-            itemType: "image",
-            imgUrl: "/floral/floral11.jpg"
-        },
+        }
     ]
 
     return (

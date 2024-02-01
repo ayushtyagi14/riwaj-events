@@ -28,16 +28,15 @@ const Hero = () => {
           Ceremonies
         </h1>
         <p className="font-medium lg:block hidden lg:text-[18px] xl:text-[22px] md:text-center italic w-[80%] mx-auto">
-          The tradition of the Mehndi is rooted in color and spectacle and our
-          stages are no different. By combining a rich palette of earthy greens,
-          vibrant yellows, deep blues, and a myriad of other colors, we make
-          sure that the atmosphere of the venue is just as colorful as the
-          journey that you and your loved one are about to embark on! We accent
-          this colorful scene with traditional South Asian and Middle Eastern
-          pottery and quilt-work. Floral frames and arrangements may also be
-          implemented to embellish the other decorations. Our mehndi designs are
-          a perfect tool to create a lively event and set the tone for grand
-          celebration!
+          South Asian weddings are a tapestry of cultural diversity, with Nikah
+          symbolizing Islamic unions through Quranic verses and a joyous Walima
+          feast. Hindu weddings weave vibrant threads of pre-wedding rituals
+          like Mehendi and Sangeet, leading to a sacred fire ceremony where vows
+          are exchanged. Sikh weddings, or Anand Karaj, take place in
+          Gurudwaras, emphasizing spiritual unity through hymns from the Guru
+          Granth Sahib, followed by a communal Langar. Each ceremony reflects
+          the region&apos;s richness, blending religious traditions, cultural
+          practices, and familial celebrations.
         </p>
       </motion.div>
     </div>

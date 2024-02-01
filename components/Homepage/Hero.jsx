@@ -51,7 +51,7 @@ const Hero = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentImageIndex((prevIndex) => (prevIndex + 1) % heroImages.length);
-    }, 5000); // Adjust the interval time as needed
+    }, 3000); // Adjust the interval time as needed
 
     return () => clearInterval(interval);
   }, [heroImages.length]);
@@ -65,7 +65,7 @@ const Hero = () => {
         <motion.div
           key={currentImageIndex}
           initial={{ opacity: 0 }}
-          animate={{ opacity: 1, transition: { duration: 1.5 } }}
+          animate={{ opacity: 1, transition: { duration: 1 } }}
           exit={{ opacity: 0, transition: { duration: 0.5 } }}
           className="lg:h-[85vh] 2xl:h-[90vh] md:h-[75vh] h-[55vh]"
         >

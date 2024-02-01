@@ -21,7 +21,7 @@ const Intro = () => {
         playsInline
         className="w-full h-full rounded-lg"
       >
-        <source src="/mehndi-video.mp4" type="video/mp4" />
+        <source src="/decor-video.mp4" type="video/mp4" />
       </video>
     </div>
   );

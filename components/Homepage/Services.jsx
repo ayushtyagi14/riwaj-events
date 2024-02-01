@@ -49,14 +49,14 @@ const Services = () => {
     {
       id: 7,
       title: "Wedding & Reception",
-      imgUrl: "/wedding-reception.jpg",
+      imgUrl: "/mehndi.jpg",
       description:
-        "With thousands of events under our belt, we know just what it takes to make your ceremony a work of art.",
+      "With thousands of events under our belt, we know just what it takes to make your ceremony a work of art.",
     },
     {
       id: 8,
       title: "Mehndi & Sangeet",
-      imgUrl: "/mehndi.jpg",
+      imgUrl: "/wedding-reception.jpg",
       description:
         "Colorful florals, trendy designs, and a touch of traditional charm.",
     },
