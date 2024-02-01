@@ -26,44 +26,43 @@ const Gallery = () => {
   const imgGallery = [
     {
       id: 1,
-      imgUrl: "/floral-work.jpg",
+      imgUrl: "/floral/floral3.jpeg",
     },
     {
       id: 2,
-      imgUrl: "/centerpiece-work.jpg",
+      imgUrl: "/floral/floral9.jpg",
     },
     {
       id: 3,
-      imgUrl: "/mehndi-work.jpg",
+      imgUrl: "/centerpiece/centerpiece4.jpeg",
     },
     {
       id: 4,
-      imgUrl: "/decor-work.jpg",
+      imgUrl: "/centerpiece/centerpiece2.jpeg",
     },
     {
       id: 5,
-      imgUrl: "/planning-work.jpg",
+      imgUrl: "/decor/decor4.jpeg",
     },
     {
       id: 6,
-      imgUrl: "/floral-work2.jpg",
+      imgUrl: "/decor/decor10.jpeg",
     },
     {
       id: 7,
-      imgUrl: "/centerpiece-work2.jpg",
-      url: "/",
+      imgUrl: "/mehndi/mehndi11.jpeg",
     },
     {
       id: 8,
-      imgUrl: "/mehndi-work2.jpg",
+      imgUrl: "/mehndi/mehndi13.jpeg",
     },
     {
       id: 9,
-      imgUrl: "/decor-work2.jpg",
+      imgUrl: "/ceremonies/ceremonies2.jpeg",
     },
     {
       id: 10,
-      imgUrl: "/planning-work2.jpg",
+      imgUrl: "/ceremonies/ceremonies5.jpeg",
     },
   ];
 
