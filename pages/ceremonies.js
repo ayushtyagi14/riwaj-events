@@ -62,6 +62,11 @@ const Ceremonies = () => {
             itemType: "image",
             imgUrl: "/ceremonies/ceremonies11.jpeg"
         },
+        {
+            id: 11,
+            itemType: "image",
+            imgUrl: "/ceremonies/ceremonies12.jpg"
+        },
     ]
 
     return (
