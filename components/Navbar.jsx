@@ -20,7 +20,7 @@ const Navbar = () => {
     {
       id: 2,
       url: "/our-packages",
-      title: "Our Package",
+      title: "Our Packages",
     },
     {
       id: 3,

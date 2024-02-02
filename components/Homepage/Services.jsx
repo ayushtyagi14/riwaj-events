@@ -51,7 +51,7 @@ const Services = () => {
       title: "Wedding & Reception",
       imgUrl: "/mehndi.jpg",
       description:
-      "With thousands of events under our belt, we know just what it takes to make your ceremony a work of art.",
+        "With thousands of events under our belt, we know just what it takes to make your ceremony a work of art.",
     },
     {
       id: 8,
@@ -83,6 +83,7 @@ const Services = () => {
         {serviceData.map((item) => (
           <>
             <ServiceCard
+              key={item.id}
               imageUrl={item.imgUrl}
               desciption={item.description}
               title={item.title}
