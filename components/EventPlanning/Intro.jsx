@@ -23,7 +23,10 @@ const Intro = () => {
         playsInline
         className="w-full h-full rounded-lg"
       >
-        <source src="/event-video.mp4" type="video/mp4" />
+        <source
+          src="https://res.cloudinary.com/drn5wtwrx/video/upload/v1709332859/public/event-video_a2zexm.mp4"
+          type="video/mp4"
+        />
       </video>
     </div>
   );

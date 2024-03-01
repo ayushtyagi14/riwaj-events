@@ -13,7 +13,7 @@ const Hero = () => {
       </div>
       <div className="lg:h-[98vh] md:h-[75vh] h-[55vh]">
         <BlurImage
-          image="/decor-banner.jpg"
+          image="https://res.cloudinary.com/drn5wtwrx/image/upload/v1709332856/public/decor-banner_feehya.jpg"
           className={"brightness-[70%] object-cover rounded-b-[8%]"}
         />
       </div>

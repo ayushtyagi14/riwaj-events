@@ -19,7 +19,7 @@ const AboutUs = () => {
               taking the first steps to planning your perfect wedding!
             </p>
             <img
-              src="/aliya-salem.jpg"
+              src="https://res.cloudinary.com/drn5wtwrx/image/upload/v1709332848/public/aliya-salem_btqhvz.jpg"
               alt="Aliya Salem"
               className="w-[200px] 2xl:w-[250px] lg:-mt-2 rounded-lg"
             />
@@ -36,7 +36,7 @@ const AboutUs = () => {
               influences that have been centuries in the making.
             </p>
             <img
-              src="/scrapbook-left.jpg"
+              src="https://res.cloudinary.com/drn5wtwrx/image/upload/v1709332868/public/scrapbook-left_c29ucc.jpg"
               alt="Mehndi Poloroid"
               className="w-[220px] 2xl:w-[320px] lg:-mt-[8rem] 2xl:-mt-[10rem] rounded-lg"
             />
@@ -48,7 +48,7 @@ const AboutUs = () => {
             whileInView="show"
           >
             <img
-              src="/scrapbook-center.jpg"
+              src="https://res.cloudinary.com/drn5wtwrx/image/upload/v1709332868/public/scrapbook-center_xfcbhe.jpg"
               alt="Aliya Salem"
               className="w-[360px] 2xl:w-[470px] mt-[0.5rem] 2xl:mt-[1.8rem] rounded-lg"
             />
@@ -69,7 +69,7 @@ const AboutUs = () => {
               will be unique to you and the wedding you have always dreamed of.
             </p>
             <img
-              src="/centerpiece-banner.jpg"
+              src="https://res.cloudinary.com/drn5wtwrx/image/upload/v1709332849/public/centerpiece-banner_qogp97.jpg"
               alt="Aliya Salem"
               className="w-[200px] 2xl:w-[250px] lg:-mt-[10rem] rounded-lg"
             />
@@ -82,7 +82,7 @@ const AboutUs = () => {
           >
             <div className="flex lg:flex-row flex-col items-center gap-2">
               <img
-                src="/reception.jpg"
+                src="https://res.cloudinary.com/drn5wtwrx/image/upload/v1709332868/public/reception_fgyzgy.jpg"
                 alt="Aliya Salem"
                 className="w-[200px] 2xl:w-[280px] lg:-mt-28 mt-4 rounded-lg"
               />
@@ -92,7 +92,7 @@ const AboutUs = () => {
                 visual philosophies that have been centuries in the making.
               </p>
               <img
-                src="/centerpiece/centerpiece51.jpg"
+                src="https://res.cloudinary.com/drn5wtwrx/image/upload/v1709332851/public/centerpiece/centerpiece51_xusfdl.jpg"
                 alt="Aliya Salem"
                 className="w-[200px] 2xl:w-[280px] lg:-mt-28 rounded-lg"
               />

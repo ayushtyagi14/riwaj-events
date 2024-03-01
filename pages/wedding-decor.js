@@ -10,87 +10,87 @@ const WeddingDecor = () => {
         {
             id: 2,
             itemType: "image",
-            imgUrl: "/decor/decor2.jpeg"
+            imgUrl: "https://res.cloudinary.com/drn5wtwrx/image/upload/v1709332855/public/decor/decor2_fsho9m.jpg"
         },
         {
             id: 8,
             itemType: "image",
-            imgUrl: "/decor/decor8.jpeg"
+            imgUrl: "https://res.cloudinary.com/drn5wtwrx/image/upload/v1709332856/public/decor/decor8_j8tbss.jpg"
         },
         {
             id: 5,
             itemType: "image",
-            imgUrl: "/decor/decor5.jpeg"
+            imgUrl: "https://res.cloudinary.com/drn5wtwrx/image/upload/v1709332856/public/decor/decor5_buyfsu.jpg"
         },
         {
             id: 6,
             itemType: "image",
-            imgUrl: "/decor/decor6.jpeg"
+            imgUrl: "https://res.cloudinary.com/drn5wtwrx/image/upload/v1709332856/public/decor/decor6_vqxajo.jpg"
         },
         {
             id: 7,
             itemType: "image",
-            imgUrl: "/decor/decor7.jpeg"
+            imgUrl: "https://res.cloudinary.com/drn5wtwrx/image/upload/v1709332856/public/decor/decor7_y0d5vp.jpg"
         },
         {
             id: 3,
             itemType: "image",
-            imgUrl: "/decor/decor3.jpeg"
+            imgUrl: "https://res.cloudinary.com/drn5wtwrx/image/upload/v1709332855/public/decor/decor3_xwe5rw.jpg"
         },
         {
             id: 12,
             itemType: "image",
-            imgUrl: "/decor/decor12.jpg"
+            imgUrl: "https://res.cloudinary.com/drn5wtwrx/image/upload/v1709332854/public/decor/decor12_kw2z8n.jpg"
         },
         {
             id: 16,
             itemType: "image",
-            imgUrl: "/decor/decor16.jpg"
+            imgUrl: "https://res.cloudinary.com/drn5wtwrx/image/upload/v1709332855/public/decor/decor16_hyk5fe.jpg"
         },
         {
             id: 9,
             itemType: "image",
-            imgUrl: "/decor/decor9.jpeg"
+            imgUrl: "https://res.cloudinary.com/drn5wtwrx/image/upload/v1709332856/public/decor/decor9_e1mw7j.jpg"
         },
         {
             id: 11,
             itemType: "image",
-            imgUrl: "/decor/decor11.jpg"
+            imgUrl: "https://res.cloudinary.com/drn5wtwrx/image/upload/v1709332854/public/decor/decor11_vpjjdy.jpg"
         },
         {
             id: 13,
             itemType: "image",
-            imgUrl: "/decor/decor13.jpg"
+            imgUrl: "https://res.cloudinary.com/drn5wtwrx/image/upload/v1709332854/public/decor/decor13_tyosp7.jpg"
         },
         {
             id: 14,
             itemType: "image",
-            imgUrl: "/decor/decor14.jpg"
+            imgUrl: "https://res.cloudinary.com/drn5wtwrx/image/upload/v1709332855/public/decor/decor14_qy1zoc.jpg"
         },
         {
             id: 4,
             itemType: "image",
-            imgUrl: "/decor/decor4.jpeg"
+            imgUrl: "https://res.cloudinary.com/drn5wtwrx/image/upload/v1709332856/public/decor/decor4_accayy.jpg"
         },
         {
             id: 1,
             itemType: "image",
-            imgUrl: "/decor/decor1.jpg"
+            imgUrl: "https://res.cloudinary.com/drn5wtwrx/image/upload/v1709332854/public/decor/decor1_u0gil7.jpg"
         },
         {
             id: 15,
             itemType: "image",
-            imgUrl: "/decor/decor15.jpg"
+            imgUrl: "https://res.cloudinary.com/drn5wtwrx/image/upload/v1709332855/public/decor/decor15_tmo7ds.jpg"
         },
         {
             id: 17,
             itemType: "image",
-            imgUrl: "/decor/decor17.jpg"
+            imgUrl: "https://res.cloudinary.com/drn5wtwrx/image/upload/v1709332855/public/decor/decor17_wgdo4s.jpg"
         },
         {
             id: 10,
             itemType: "image",
-            imgUrl: "/decor/decor10.jpeg"
+            imgUrl: "https://res.cloudinary.com/drn5wtwrx/image/upload/v1709332854/public/decor/decor10_whihna.jpg"
         },
     ]
 

@@ -21,7 +21,10 @@ const Intro = () => {
         playsInline
         className="w-full h-full rounded-lg"
       >
-        <source src="/floral-video.mp4" type="video/mp4" />
+        <source
+          src="https://res.cloudinary.com/drn5wtwrx/video/upload/v1709332863/public/floral-video_mc3vz6.mp4"
+          type="video/mp4"
+        />
       </video>
       <div className="flex flex-col items-center mt-5 mb-16 text-white">
         <h1 className="text-center md:text-[80px] text-[50px] font-vibes text-[#d59a30] mb-3">

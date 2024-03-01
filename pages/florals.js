@@ -10,52 +10,52 @@ const Florals = () => {
         {
             id: 1,
             itemType: "image",
-            imgUrl: "/floral/floral1.jpeg"
+            imgUrl: "https://res.cloudinary.com/drn5wtwrx/image/upload/v1709332859/public/floral/floral1_q6kbkw.jpg"
         },
         {
             id: 2,
             itemType: "image",
-            imgUrl: "/floral/floral2.jpeg"
+            imgUrl: "https://res.cloudinary.com/drn5wtwrx/image/upload/v1709332859/public/floral/floral2_dsqacl.jpg"
         },
         {
             id: 3,
             itemType: "image",
-            imgUrl: "/floral/floral3.jpeg"
+            imgUrl: "https://res.cloudinary.com/drn5wtwrx/image/upload/v1709332860/public/floral/floral3_o4v957.jpg"
         },
         {
             id: 4,
             itemType: "image",
-            imgUrl: "/floral/floral4.jpeg"
+            imgUrl: "https://res.cloudinary.com/drn5wtwrx/image/upload/v1709332860/public/floral/floral4_itzvl7.jpg"
         },
         {
             id: 5,
             itemType: "image",
-            imgUrl: "/floral/floral5.jpg"
+            imgUrl: "https://res.cloudinary.com/drn5wtwrx/image/upload/v1709332860/public/floral/floral5_d32ulw.jpg"
         },
         {
             id: 6,
             itemType: "image",
-            imgUrl: "/floral/floral6.jpeg"
+            imgUrl: "https://res.cloudinary.com/drn5wtwrx/image/upload/v1709332860/public/floral/floral6_duilwg.jpg"
         },
         {
             id: 7,
             itemType: "image",
-            imgUrl: "/floral/floral7.jpg"
+            imgUrl: "https://res.cloudinary.com/drn5wtwrx/image/upload/v1709332860/public/floral/floral7_crpfit.jpg"
         },
         {
             id: 8,
             itemType: "image",
-            imgUrl: "/floral/floral8.jpeg"
+            imgUrl: "https://res.cloudinary.com/drn5wtwrx/image/upload/v1709332861/public/floral/floral8_i6jds0.jpg"
         },
         {
             id: 9,
             itemType: "image",
-            imgUrl: "/floral/floral9.jpg"
+            imgUrl: "https://res.cloudinary.com/drn5wtwrx/image/upload/v1709332861/public/floral/floral9_cf41h5.jpg"
         },
         {
             id: 10,
             itemType: "image",
-            imgUrl: "/floral/floral10.jpg"
+            imgUrl: "https://res.cloudinary.com/drn5wtwrx/image/upload/v1709332859/public/floral/floral10_lpqnav.jpg"
         }
     ]
 

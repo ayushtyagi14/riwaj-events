@@ -28,22 +28,26 @@ const Hero = () => {
   const heroImages = [
     {
       id: "1",
-      imgUrl: "/hero-banner4.jpg",
+      imgUrl:
+        "https://res.cloudinary.com/drn5wtwrx/image/upload/v1709333183/hero-banner4_dgvedo.jpg",
       title: "Your Vision, Our Expertise",
     },
     {
       id: "2",
-      imgUrl: "/hero-banner1.jpeg",
+      imgUrl:
+        "https://res.cloudinary.com/drn5wtwrx/image/upload/v1709332862/public/hero-banner1_yamsoi.jpg",
       title: "Experience the Extraordinary",
     },
     {
       id: "3",
-      imgUrl: "/hero-banner3.jpeg",
+      imgUrl:
+        "https://res.cloudinary.com/drn5wtwrx/image/upload/v1709332862/public/hero-banner3_drj8by.jpg",
       title: "Creating Lasting Memories",
     },
     {
       id: "3",
-      imgUrl: "/hero-banner2.jpeg",
+      imgUrl:
+        "https://res.cloudinary.com/drn5wtwrx/image/upload/v1709332862/public/hero-banner2_trb773.jpg",
       title: "Creating Lasting Memories",
     },
   ];

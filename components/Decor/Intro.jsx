@@ -20,7 +20,10 @@ const Intro = () => {
         playsInline
         className="w-full h-full rounded-lg"
       >
-        <source src="/mehndi-video.mp4" type="video/mp4" />
+        <source
+          src="https://res.cloudinary.com/drn5wtwrx/video/upload/v1709332867/public/mehndi-video_mzwqpz.mp4"
+          type="video/mp4"
+        />
       </video>
     </div>
   );

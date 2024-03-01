@@ -26,43 +26,53 @@ const Gallery = () => {
   const imgGallery = [
     {
       id: 1,
-      imgUrl: "/floral/floral3.jpeg",
+      imgUrl:
+        "https://res.cloudinary.com/drn5wtwrx/image/upload/v1709332860/public/floral/floral3_o4v957.jpg",
     },
     {
       id: 2,
-      imgUrl: "/floral/floral9.jpg",
+      imgUrl:
+        "https://res.cloudinary.com/drn5wtwrx/image/upload/v1709332861/public/floral/floral9_cf41h5.jpg",
     },
     {
       id: 3,
-      imgUrl: "/centerpiece/centerpiece4.jpeg",
+      imgUrl:
+        "https://res.cloudinary.com/drn5wtwrx/image/upload/v1709332850/public/centerpiece/centerpiece4_hcr99g.jpg",
     },
     {
       id: 4,
-      imgUrl: "/centerpiece/centerpiece2.jpeg",
+      imgUrl:
+        "https://res.cloudinary.com/drn5wtwrx/image/upload/v1709332850/public/centerpiece/centerpiece2_jlerc2.jpg",
     },
     {
       id: 5,
-      imgUrl: "/decor/decor4.jpeg",
+      imgUrl:
+        "https://res.cloudinary.com/drn5wtwrx/image/upload/v1709332856/public/decor/decor4_accayy.jpg",
     },
     {
       id: 6,
-      imgUrl: "/decor/decor10.jpeg",
+      imgUrl:
+        "https://res.cloudinary.com/drn5wtwrx/image/upload/v1709332854/public/decor/decor10_whihna.jpg",
     },
     {
       id: 7,
-      imgUrl: "/mehndi/mehndi11.jpeg",
+      imgUrl:
+        "https://res.cloudinary.com/drn5wtwrx/image/upload/v1709332863/public/mehndi/mehndi11_dod9e0.jpg",
     },
     {
       id: 8,
-      imgUrl: "/mehndi/mehndi13.jpeg",
+      imgUrl:
+        "https://res.cloudinary.com/drn5wtwrx/image/upload/v1709332864/public/mehndi/mehndi13_dp32le.jpg",
     },
     {
       id: 9,
-      imgUrl: "/ceremonies/ceremonies2.jpeg",
+      imgUrl:
+        "https://res.cloudinary.com/drn5wtwrx/image/upload/v1709332852/public/ceremonies/ceremonies2_i7vsu6.jpg",
     },
     {
       id: 10,
-      imgUrl: "/ceremonies/ceremonies5.jpeg",
+      imgUrl:
+        "https://res.cloudinary.com/drn5wtwrx/image/upload/v1709332853/public/ceremonies/ceremonies5_bhpieb.jpg",
     },
   ];
 

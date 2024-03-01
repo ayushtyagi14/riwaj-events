@@ -13,7 +13,8 @@ const Work = () => {
       id: 1,
       title: "Floral",
       description: "Bouquets, Arches, Custom arrangements, silk florals, etc..",
-      imgUrl: "/floral-work.jpg",
+      imgUrl:
+        "https://res.cloudinary.com/drn5wtwrx/image/upload/v1709332861/public/floral-work_pgggdp.jpg",
       url: "/florals",
     },
     {
@@ -21,7 +22,8 @@ const Work = () => {
       title: "Centerpieces",
       description:
         "Our centerpieces are catered to a variety of styles and tastes from contemporary to traditional…",
-      imgUrl: "/centerpiece-work.jpg",
+      imgUrl:
+        "https://res.cloudinary.com/drn5wtwrx/image/upload/v1709332850/public/centerpiece-work_mc7tyd.jpg",
       url: "/centerpieces",
     },
     {
@@ -29,7 +31,8 @@ const Work = () => {
       title: "Mehndi Decor",
       description:
         "The tradition of the Mehndi is rooted in color and spectacle and our stages are no different…",
-      imgUrl: "/mehndi-work.jpg",
+      imgUrl:
+        "https://res.cloudinary.com/drn5wtwrx/image/upload/v1709332866/public/mehndi-work_pm5aao.jpg",
       url: "/mehndi-decor",
     },
     {
@@ -37,7 +40,8 @@ const Work = () => {
       title: "Wedding Decor",
       description:
         "Elevated designs rooted in luxury and grandeur. Select from available designs or create a custom stage…",
-      imgUrl: "/decor-work.jpg",
+      imgUrl:
+        "https://res.cloudinary.com/drn5wtwrx/image/upload/v1709332857/public/decor-work_djvzlb.jpg",
       url: "/wedding-decor",
     },
     {
@@ -45,7 +49,8 @@ const Work = () => {
       title: "Planning & Coordination",
       description:
         "Professional planning and coordination services covering all your event needs from itinerary to vendors and budgeting.",
-      imgUrl: "/planning-work.jpg",
+      imgUrl:
+        "https://res.cloudinary.com/drn5wtwrx/image/upload/v1709332867/public/planning-work_xj22m1.jpg",
       url: "/event-planning",
     },
   ];

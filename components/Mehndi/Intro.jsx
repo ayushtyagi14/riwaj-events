@@ -21,7 +21,10 @@ const Intro = () => {
         playsInline
         className="w-full h-full rounded-lg"
       >
-        <source src="/decor-video.mp4" type="video/mp4" />
+        <source
+          src="https://res.cloudinary.com/drn5wtwrx/video/upload/v1709332857/public/decor-video_nce6uj.mp4"
+          type="video/mp4"
+        />
       </video>
     </div>
   );
