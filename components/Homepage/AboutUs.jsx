@@ -26,9 +26,9 @@ const AboutUs = () => {
           </motion.div>
           <motion.div
             className="about-card flex flex-col-reverse items-center justify-end gap-4 lg:w-[350px] h-[340px] md:h-[350px] lg:h-[220px] 2xl:h-[320px] w-[80%] md:w-[60%] 2xl:w-[450px] px-3 lg:py-10 py-7 absolute lg:mt-[1rem] left-[1.8rem] md:left-[8rem] lg:-left-[6rem] 2xl:mt-20 mt-[12rem] 2xl:-left-[10rem] bg-[#d59a30]"
-            variants={slideIn("left", "spring", 0.2, 1.25)}
-            initial="hidden"
-            whileInView="show"
+            initial={{ opacity: 0, x: -300 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 1 }}
           >
             <p className="2xl:text-[22px] text-center">
               Riwaj means &quot;tradition&quot; and at Riwaj, we make sure that
@@ -43,9 +43,9 @@ const AboutUs = () => {
           </motion.div>
           <motion.div
             className="lg:block absolute hidden 2xl:mt-[3.7rem] lg:mt-[0.3rem] 2xl:left-[26rem] left-[20rem] z-[899]"
-            variants={fadeInAndScale(0.2, 1.25)}
-            initial="hidden"
-            whileInView="show"
+            initial={{ scale: 0 }}
+            whileInView={{ scale: 1 }}
+            transition={{ duration: 1 }}
           >
             <img
               src="https://res.cloudinary.com/drn5wtwrx/image/upload/v1709332868/public/scrapbook-center_xfcbhe.jpg"
