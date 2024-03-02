@@ -43,7 +43,7 @@ const AboutUs = () => {
           </motion.div>
           <motion.div
             className="lg:block absolute hidden 2xl:mt-[3.7rem] lg:mt-[0.3rem] 2xl:left-[26rem] left-[20rem] z-[899]"
-            initial={{ scale: 0 }}
+            initial={{ scale: 0.6 }}
             whileInView={{ scale: 1 }}
             transition={{ duration: 1 }}
           >
