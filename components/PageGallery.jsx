@@ -8,12 +8,12 @@ const PageGallery = ({ galleryData }) => {
       </h1>
       <div className="grid md:grid-cols-4 grid-cols-2 w-[90%] mx-auto gap-5 mb-16">
         {galleryData.map((item) => (
-          <div className="" key={item.id}>
+          <div className="relative rounded-lg overflow-hidden" key={item.id}>
             {item.itemType === "image" && (
               <img
                 src={item.imgUrl}
                 alt={`Gallery ${item.id}`}
-                className="w-full rounded-lg"
+                className="w-full h-full object-cover"
               />
             )}
             {item.itemType === "video" && (
@@ -22,7 +22,7 @@ const PageGallery = ({ galleryData }) => {
                 muted
                 loop
                 playsInline
-                className="w-full h-full rounded-lg"
+                className="absolute inset-0 w-full h-full object-cover"
               >
                 <source src={item.url} type="video/mp4" />
               </video>
