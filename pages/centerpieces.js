@@ -52,6 +52,46 @@ const centerpieces = () => {
             itemType: "image",
             imgUrl: "https://res.cloudinary.com/drn5wtwrx/image/upload/v1709332849/public/centerpiece/centerpiece10_ky61te.jpg"
         },
+        {
+            id: 11,
+            itemType: "image",
+            imgUrl: "https://res.cloudinary.com/drn5wtwrx/image/upload/v1709422421/centerpiece11_kjkvse.jpg"
+        },
+        {
+            id: 12,
+            itemType: "image",
+            imgUrl: "https://res.cloudinary.com/drn5wtwrx/image/upload/v1709422425/centerpiece12_osrlvr.jpg"
+        },
+        {
+            id: 13,
+            itemType: "image",
+            imgUrl: "https://res.cloudinary.com/drn5wtwrx/image/upload/v1709422423/centerpiece13_mnn3lj.jpg"
+        },
+        {
+            id: 14,
+            itemType: "image",
+            imgUrl: "https://res.cloudinary.com/drn5wtwrx/image/upload/v1709422427/centerpiece14_tx3ltf.jpg"
+        },
+        {
+            id: 15,
+            itemType: "image",
+            imgUrl: "https://res.cloudinary.com/drn5wtwrx/image/upload/v1709422430/centerpiece15_riei7c.jpg"
+        },
+        {
+            id: 16,
+            itemType: "image",
+            imgUrl: "https://res.cloudinary.com/drn5wtwrx/image/upload/v1709422432/centerpiece16_qalmcq.jpg"
+        },
+        {
+            id: 17,
+            itemType: "image",
+            imgUrl: "https://res.cloudinary.com/drn5wtwrx/image/upload/v1709422435/centerpiece17_ulnxrw.jpg"
+        },
+        {
+            id: 18,
+            itemType: "image",
+            imgUrl: "https://res.cloudinary.com/drn5wtwrx/image/upload/v1709422437/centerpiece18_ifij1h.jpg"
+        },
     ]
 
     return (

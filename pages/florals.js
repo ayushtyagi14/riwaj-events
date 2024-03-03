@@ -56,7 +56,12 @@ const Florals = () => {
             id: 10,
             itemType: "image",
             imgUrl: "https://res.cloudinary.com/drn5wtwrx/image/upload/v1709332859/public/floral/floral10_lpqnav.jpg"
-        }
+        },
+        {
+            id: 11,
+            itemType: "image",
+            imgUrl: "https://res.cloudinary.com/drn5wtwrx/image/upload/v1709422041/floral11_h80inc.jpg"
+        },
     ]
 
     return (

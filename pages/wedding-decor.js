@@ -88,6 +88,41 @@ const WeddingDecor = () => {
             imgUrl: "https://res.cloudinary.com/drn5wtwrx/image/upload/v1709332855/public/decor/decor17_wgdo4s.jpg"
         },
         {
+            id: 18,
+            itemType: "image",
+            imgUrl: "https://res.cloudinary.com/drn5wtwrx/image/upload/v1709423682/decor18_da0y8s.jpg"
+        },
+        {
+            id: 19,
+            itemType: "image",
+            imgUrl: "https://res.cloudinary.com/drn5wtwrx/image/upload/v1709423683/decor19_cu3iir.jpg"
+        },
+        {
+            id: 20,
+            itemType: "image",
+            imgUrl: "https://res.cloudinary.com/drn5wtwrx/image/upload/v1709423683/decor20_hoz2wm.jpg"
+        },
+        {
+            id: 21,
+            itemType: "image",
+            imgUrl: "https://res.cloudinary.com/drn5wtwrx/image/upload/v1709423683/decor21_nbgvcd.jpg"
+        },
+        {
+            id: 22,
+            itemType: "image",
+            imgUrl: "https://res.cloudinary.com/drn5wtwrx/image/upload/v1709423684/decor22_ip9k27.jpg"
+        },
+        {
+            id: 23,
+            itemType: "image",
+            imgUrl: "https://res.cloudinary.com/drn5wtwrx/image/upload/v1709424021/decor23_dllkh6_kojw6m.jpg"
+        },
+        {
+            id: 24,
+            itemType: "image",
+            imgUrl: "https://res.cloudinary.com/drn5wtwrx/image/upload/v1709423684/decor24_hfni1f.jpg"
+        },
+        {
             id: 10,
             itemType: "image",
             imgUrl: "https://res.cloudinary.com/drn5wtwrx/image/upload/v1709332854/public/decor/decor10_whihna.jpg"

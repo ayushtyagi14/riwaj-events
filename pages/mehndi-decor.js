@@ -82,6 +82,41 @@ const MehndiDecor = () => {
             itemType: "image",
             imgUrl: "https://res.cloudinary.com/drn5wtwrx/image/upload/v1709332863/public/mehndi/mehndi1_enncoh.jpg"
         },
+        {
+            id: 16,
+            itemType: "image",
+            imgUrl: "https://res.cloudinary.com/drn5wtwrx/image/upload/v1709425124/mehndi16_bkwqne.jpg"
+        },
+        {
+            id: 17,
+            itemType: "image",
+            imgUrl: "https://res.cloudinary.com/drn5wtwrx/image/upload/v1709424929/mehndi17_cwc0a1.jpg"
+        },
+        {
+            id: 18,
+            itemType: "image",
+            imgUrl: "https://res.cloudinary.com/drn5wtwrx/image/upload/v1709424923/mehndi18_g7nfnt.jpg"
+        },
+        {
+            id: 19,
+            itemType: "image",
+            imgUrl: "https://res.cloudinary.com/drn5wtwrx/image/upload/v1709424924/mehndi19_v08cox.jpg"
+        },
+        {
+            id: 20,
+            itemType: "image",
+            imgUrl: "https://res.cloudinary.com/drn5wtwrx/image/upload/v1709424924/mehndi20_js6ewn.jpg"
+        },
+        {
+            id: 21,
+            itemType: "image",
+            imgUrl: "https://res.cloudinary.com/drn5wtwrx/image/upload/v1709424926/mehndi21_ktftie.jpg"
+        },
+        {
+            id: 22,
+            itemType: "image",
+            imgUrl: "https://res.cloudinary.com/drn5wtwrx/image/upload/v1709424927/mehndi22_txx22d.jpg"
+        },
     ]
 
     return (

@@ -15,7 +15,7 @@ const Ceremonies = () => {
         {
             id: 6,
             itemType: "image",
-            imgUrl: "/ceremonies/ceremonies6.jpg"
+            imgUrl: "https://res.cloudinary.com/drn5wtwrx/image/upload/v1709332852/public/ceremonies/ceremonies3_q6miud.jpg"
         },
         {
             id: 3,
@@ -63,9 +63,34 @@ const Ceremonies = () => {
             imgUrl: "https://res.cloudinary.com/drn5wtwrx/image/upload/v1709332852/public/ceremonies/ceremonies11_zmzeby.jpg"
         },
         {
-            id: 11,
+            id: 12,
             itemType: "image",
             imgUrl: "https://res.cloudinary.com/drn5wtwrx/image/upload/v1709332852/public/ceremonies/ceremonies12_uzeckl.jpg"
+        },
+        {
+            id: 13,
+            itemType: "image",
+            imgUrl: "https://res.cloudinary.com/drn5wtwrx/image/upload/v1709424550/ceremonies13_bsstfa.jpg"
+        },
+        {
+            id: 14,
+            itemType: "image",
+            imgUrl: "https://res.cloudinary.com/drn5wtwrx/image/upload/v1709424548/ceremonies14_fj0fca.jpg"
+        },
+        {
+            id: 15,
+            itemType: "image",
+            imgUrl: "https://res.cloudinary.com/drn5wtwrx/image/upload/v1709424548/ceremonies15_kwlj26.jpg"
+        },
+        {
+            id: 16,
+            itemType: "image",
+            imgUrl: "https://res.cloudinary.com/drn5wtwrx/image/upload/v1709424550/ceremonies16_nqcdbg.jpg"
+        },
+        {
+            id: 17,
+            itemType: "image",
+            imgUrl: "https://res.cloudinary.com/drn5wtwrx/image/upload/v1709424552/ceremonies17_wzravf.jpg"
         },
     ]
 
