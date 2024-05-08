@@ -17,11 +17,11 @@ const Navbar = () => {
       url: "/contact-us",
       title: "Contact Us",
     },
-    {
-      id: 2,
-      url: "/our-packages",
-      title: "Our Packages",
-    },
+    // {
+    //   id: 2,
+    //   url: "/our-packages",
+    //   title: "Our Packages",
+    // },
     {
       id: 3,
       url: "/florals",
